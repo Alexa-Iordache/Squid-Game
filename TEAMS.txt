@@ -1,0 +1,11 @@
+Scott Parker Rotterdam 66265 61 circle
+Alexander Molina Guangzhou 99413 72 circle
+Paul Robinson Singapore 68602 78 circle
+
+George Wright Abu Dhabi 94497 96 triangle
+Brenda Rivera Québec 98609 60 triangle
+Laura Perry Vancouver 92886 86 triangle
+
+Donald Martin Kuala Lumpur 99486 63 square
+George Wright Abu Dhabi 94497 96 square
+Alexander Molina Guangzhou 99413 72 square
