@@ -35,6 +35,7 @@ public:
     int getWeight();
 
     void displayPerson();
+    void displayInFile(fstream &file, int i, int nr, int nr2, int nr3, double debt, int weight, string firstNamesArray[], string lastNamesArray[], string citiesArray[]);
 };
 
 void PERSON::setPerson(string last_name, string first_name, string city, double debt, int weight)
@@ -45,11 +46,6 @@ void PERSON::setPerson(string last_name, string first_name, string city, double 
     this->debt = debt;
     this->weight = weight;
 }
-
-// void PERSON::setUsed (int used)
-// {
-//     this->used = used;
-// }
 
 string PERSON::getLastName()
 {
@@ -76,11 +72,6 @@ int PERSON::getWeight()
     return this->weight;
 }
 
-// int PERSON::getUsed()
-// {
-//     return this->used;
-// }
-
 void PERSON::displayPerson()
 {
     cout << "Last name: " << this->getLastName() << endl;
@@ -90,17 +81,31 @@ void PERSON::displayPerson()
     cout << "Weight: " << this->getWeight() << endl;
 }
 
+void displayInFile(fstream &file, int i, int nr, int nr2, int nr3, double debt, int weight, string firstNamesArray[], string lastNamesArray[], string citiesArray[])
+{
+    file << i << ". First name: " << firstNamesArray[nr] << endl;
+    file << "Last name: " << lastNamesArray[nr2] << endl;
+    file << "City: " << citiesArray[nr3] << endl;
+    file << "Debt: " << debt << endl;
+    file << "Weight: " << weight << endl;
+    file << endl;
+}
+
 // ----------------- PLAYER CLASS -----------------------
 
 class PLAYER : public PERSON
 {
 private:
     int game_number;
+    int hasTeam;
 
 public:
     void setGameNumber(int game_number);
+    void setHasTeam(int hasTeam);
     int getGameNumber();
+    int getHasTeam();
     void displayPlayer();
+    void displayInFile(fstream &file, int i, int nr, PERSON persons[], PLAYER players[]);
 };
 
 void PLAYER::setGameNumber(int game_number)
@@ -108,19 +113,44 @@ void PLAYER::setGameNumber(int game_number)
     this->game_number = game_number;
 }
 
+void PLAYER::setHasTeam(int hasTeam)
+{
+    this->hasTeam = hasTeam;
+}
+
 int PLAYER::getGameNumber()
 {
     return this->game_number;
+}
+
+int PLAYER::getHasTeam()
+{
+    return this->hasTeam;
 }
 
 void PLAYER::displayPlayer()
 {
     displayPerson();
     cout << "Game number: " << this->getGameNumber() << endl;
+    cout << "Has team? " << this->getHasTeam() << endl;
     cout << endl;
 }
 
+// function to display players in file
+void displayInFile(fstream &file, int i, int nr, PERSON persons[], PLAYER players[])
+{
+    file << "First name: " << persons[nr].getLastName() << endl;
+    file << "Last name: " << persons[nr].getFirstName() << endl;
+    file << "City: " << persons[nr].getCity() << endl;
+    file << "Debt: " << persons[nr].getDebt() << endl;
+    file << "Weight: " << persons[nr].getWeight() << endl;
+    file << "Game number: " << i << endl;
+    file << "Has team? " << players[i].getHasTeam() << endl;
+    file << endl;
+}
+
 // ------------ SUPERVISOR CLASS -------------
+
 class SUPERVISOR : public PERSON
 {
 private:
@@ -130,6 +160,7 @@ public:
     void setMaskForm(string mask_form);
     string getMaskForm();
     void displaySupervisor();
+    void displayInFile(fstream &file, int i, int nr, PERSON persons[], SUPERVISOR supervisors[]);
 };
 
 void SUPERVISOR::setMaskForm(string mask_form)
@@ -149,16 +180,36 @@ void SUPERVISOR::displaySupervisor()
     cout << endl;
 }
 
+void displayInFile(fstream &file, int i, int nr, PERSON persons[], SUPERVISOR supervisors[])
+{
+    file << i << ". First name: " << persons[nr].getLastName() << endl;
+    file << "Last name: " << persons[nr].getFirstName() << endl;
+    file << "City: " << persons[nr].getCity() << endl;
+    file << "Debt: " << persons[nr].getDebt() << endl;
+    file << "Weight: " << persons[nr].getWeight() << endl;
+    file << "Mask form: " << supervisors[i].getMaskForm() << endl;
+    file << endl;
+}
+
+// ---------------------------------------------------------------------------------------
+
+int verifyFileExists(string fileName)
+{
+    fstream file;
+    if (!file)
+    {
+        cout << fileName << " does not exist." << endl;
+        return 0;
+    }
+    return 1;
+}
+
 void openFile(string nameFile, string array[])
 {
     fstream file;
     int i = 0;
     file.open(nameFile, ios::in);
-    if (!file)
-    {
-        cout << "No such file" << endl;
-    }
-    else
+    if (verifyFileExists(nameFile) == 1)
     {
         string line;
         while (getline(file, line))
@@ -169,13 +220,13 @@ void openFile(string nameFile, string array[])
     file.close();
 }
 
-template <typename X>
-X minim (X a, X b)
-{
-    if (a == b)
-        return NULL;
-    return (a < b) ? a : b;
-}
+// template <typename X>
+// X minim(X a, X b)
+// {
+//     if (a == b)
+//         return NULL;
+//     return (a < b) ? a : b;
+// }
 
 // bool verifyDuplicity (int arr[])
 // {
@@ -235,7 +286,8 @@ string randomMaskForm(int nb2, int *nb_circles, int *nb_triangles, int *nb_squar
             (*nb_squares)++;
             return "square";
         }
-        else{
+        else
+        {
             (*nb_circles)++;
             return "circle";
         }
@@ -248,7 +300,8 @@ string randomMaskForm(int nb2, int *nb_circles, int *nb_triangles, int *nb_squar
             (*nb_circles)++;
             return "circle";
         }
-        else {
+        else
+        {
             (*nb_triangles)++;
             return "triangle";
         }
@@ -257,46 +310,43 @@ string randomMaskForm(int nb2, int *nb_circles, int *nb_triangles, int *nb_squar
     return "nothing";
 }
 
-void shuffle(int *arr, size_t n)
+void makeGroups (SUPERVISOR supervisors[], PLAYER players[], fstream &file, string maskForm)
 {
-    if (n > 1) 
+    for (int i = 1; i <= 9; i++)
     {
-        int i;
-        srand(time(NULL));
-        for (i = 0; i < n - 1; i++) 
+        if (supervisors[i].getMaskForm() == maskForm)
         {
-          int j = i + rand() / (RAND_MAX / (n - i) + 1);
-          int t = arr[j];
-          arr[j] = arr[i];
-          arr[i] = t;
+            file << supervisors[i].getLastName() << " " << supervisors[i].getFirstName() << " " << supervisors[i].getCity() << " " << supervisors[i].getDebt() << " " << supervisors[i].getWeight() << " " << supervisors[i].getMaskForm() << endl;
+            for (int j = 1; j <= 11; j++)
+            {
+                int nr = 1 + rand() % 99;
+                if (players[nr].getHasTeam() == 0)
+                {
+                    file << players[nr].getLastName() << " " << players[nr].getFirstName() << " " << players[nr].getCity() << " " << players[nr].getDebt() << " " << players[nr].getWeight() << " " << players[nr].getGameNumber() << endl;
+                    players[nr].setHasTeam(1);
+                }
+                else
+                {
+                    j--;
+                }
+            }
+            file << endl;
         }
     }
+    file << endl;
 }
 
 int main()
 {
     srand(time(NULL));
-    PERSON person1;
     PERSON persons[109];
-    person1.setPerson("iordache", "ana", "pitesti", 10000, 50);
-    //person1.displayPerson();
-
-    PLAYER player1;
     PLAYER players[100];
-    player1.setPerson("iordache", "alexa", "pitesti", 10000, 54);
-    player1.setGameNumber(1);
-    //player1.displayPlayer();
-
-    SUPERVISOR supervisor1;
     SUPERVISOR supervisors[10];
-    supervisor1.setPerson("popa", "ioana", "bucuresti", 100000, 65);
-    supervisor1.setMaskForm("patrat");
-    //supervisor1.displaySupervisor();
 
     string firstNamesArray[109] = {};
     string lastNamesArray[109] = {};
     string citiesArray[109] = {};
-    int gameNumbersArray[100];
+    //int gameNumbersArray[100];
 
     openFile("NAMES.txt", firstNamesArray);
     openFile("LASTNAMES.txt", lastNamesArray);
@@ -306,17 +356,11 @@ int main()
     fstream playersFile;
     fstream supervisorsFile;
 
-
     // ----------- a file with all the persons in the game ----------------
 
     personsFile.open("PERSONS.txt", ios::out);
-    if (!personsFile)
+    if (verifyFileExists("PERSONS.txt") == 1)
     {
-        cout << "No such file" << endl;
-    }
-    else
-    {
-        //srand(time(NULL));
         for (int i = 1; i <= 108; i++)
         {
             // we have 3 different nr in order to avoid dublicates (two persons with the same last name, first name and city)
@@ -326,9 +370,9 @@ int main()
 
             double debt = 10000 + rand() % 90001;
             int weight = 50 + rand() % 51;
-            //cout << i <<": " <<  firstNamesArray[nr] << " " << lastNamesArray[nr] << " " << citiesArray[nr] << " " << money<< " " << greutate << endl;
+
             persons[i].setPerson(firstNamesArray[nr], lastNamesArray[nr2], citiesArray[nr3], debt, weight);
-            personsFile << firstNamesArray[nr] << " " << lastNamesArray[nr2] << " " << citiesArray[nr3] << " " << debt << " " << weight << " " << endl;
+            displayInFile(personsFile, i, nr, nr2, nr3, debt, weight, firstNamesArray, lastNamesArray, citiesArray);
         }
     }
     personsFile.close();
@@ -336,28 +380,19 @@ int main()
     // ------------- a file with 99 players -----------------
 
     playersFile.open("PLAYERS.txt", ios::out);
-    if (!playersFile)
+    if (verifyFileExists("PLAYERS.txt") == 1)
     {
-        cout << "No such file" << endl;
-    }
-    else
-    {
-        //srand(time(NULL));
         for (int i = 1; i <= 99; i++)
         {
             int nr = 1 + rand() % 99;
-            playersFile << persons[nr].getLastName() << " " << persons[nr].getFirstName() << " " << persons[nr].getCity() << " " << persons[nr].getDebt() << " " << persons[nr].getWeight() << " " << nr << endl;
             players[i].setPerson(persons[nr].getLastName(), persons[nr].getFirstName(), persons[nr].getCity(), persons[nr].getDebt(), persons[nr].getWeight());
-            gameNumbersArray[i] = nr;
-            players[i].setGameNumber(nr);
+            players[i].setHasTeam(0);
+
+            players[i].setGameNumber(i);
+            displayInFile(playersFile, i, nr, persons, players);
         }
     }
     playersFile.close();
-
-    for (int i = 1; i <= 99; i++)
-    {
-        cout << gameNumbersArray[i] << " ";
-    }
 
     // ------------------- a file with 9 supervisors --------------------------
 
@@ -366,89 +401,32 @@ int main()
     int nb_squares = 0;
 
     supervisorsFile.open("SUPERVISORS.txt", ios::out);
-    if (!supervisorsFile)
+    if (verifyFileExists("SUPERVISORS.txt") == 1)
     {
-        cout << "No such file" << endl;
-    }
-    else
-    {
-        ///srand(time(NULL));
         for (int i = 1; i <= 9; i++)
         {
             int nr = 1 + rand() % 9;
-
             int nb2 = 1 + rand() % 3;
             string form = randomMaskForm(nb2, &nb_circles, &nb_triangles, &nb_squares);
-            // cout << nb2 << " " << form << " " << nb_circles << " " << nb_triangles << " " << nb_squares << endl;
             supervisors[i].setMaskForm(form);
-
             supervisors[i].setPerson(persons[nr].getLastName(), persons[nr].getFirstName(), persons[nr].getCity(), persons[nr].getDebt(), persons[nr].getWeight());
-            supervisorsFile << persons[nr].getLastName() << " " << persons[nr].getFirstName() << " " << persons[nr].getCity() << " " << persons[nr].getDebt() << " " << persons[nr].getWeight() << " " << supervisors[i].getMaskForm() << endl;
+
+            displayInFile(supervisorsFile, i, nr, persons, supervisors);
         }
     }
     supervisorsFile.close();
 
     fstream teamsFile;
     teamsFile.open("TEAMS.txt", ios::out);
-    if (!teamsFile)
+    if (verifyFileExists("TEAMS.txt") == 1)
     {
-        cout << "No such file" << endl;
-    }
-    else{
         supervisorsFile.open("SUPERVISORS.txt", ios::in);
-        if(!supervisorsFile)
+        if (verifyFileExists("SUPERVISORS.txt") == 1)
         {
-            cout << "No such file" << endl;
+            makeGroups (supervisors, players, teamsFile, "circle");
+            makeGroups (supervisors, players, teamsFile, "triangle");
+            makeGroups (supervisors, players, teamsFile, "square");
         }
-        else{
-            for (int i = 1; i <=9; i++)
-            {
-                if(supervisors[i].getMaskForm() == "circle")
-                {
-                    teamsFile << supervisors[i].getLastName() << " " << supervisors[i].getFirstName() << " " << supervisors[i].getCity() << " " << supervisors[i].getDebt() << " " << supervisors[i].getWeight() << " " << supervisors[i].getMaskForm() << endl;
-                }
-            }
-            teamsFile << endl;
-            for (int i = 1; i <= 9; i++)
-            {
-                if(supervisors[i].getMaskForm() == "triangle")
-                {
-                    teamsFile << supervisors[i].getLastName() << " " << supervisors[i].getFirstName() << " " << supervisors[i].getCity() << " " << supervisors[i].getDebt() << " " << supervisors[i].getWeight() << " " << supervisors[i].getMaskForm() << endl;
-                }
-            }
-            teamsFile << endl;
-            for (int i = 1; i <= 9; i++)
-            {
-                if(supervisors[i].getMaskForm() == "square")
-                {
-                    teamsFile << supervisors[i].getLastName() << " " << supervisors[i].getFirstName() << " " << supervisors[i].getCity() << " " << supervisors[i].getDebt() << " " << supervisors[i].getWeight() << " " << supervisors[i].getMaskForm() << endl;
-                }
-            }
-        }
-    }
-
-    
-    // srand(time(NULL));
-    // for (int i = 1; i <= 99; i++)
-    // {
-    //     int number = 1 + rand() % 99;
-    //     gameNumbersArray[i] = number;
-    //     //cout << number << endl;
-    // }
-    // random_shuffle(gameNumbersArray, gameNumbersArray + 99);
-    // for (int i = 1; i <= 99; i++)
-    // {
-    //     cout << i << ". " << gameNumbersArray[i] << endl;
-    // }
-
-    int i;
-    int arr[10];
-    for (i = 0; i < 10; i++){
-        arr[i] = i;
-    }
-    shuffle(arr, 10);
-    for (i = 0; i < 10; i++){
-        cout << arr[i] << " ";
     }
 
     return 0;

@@ -1,9 +1,63 @@
-Donald Martin Kuala Lumpur 99486 63 square
-George Wright Abu Dhabi 94497 96 triangle
-Scott Parker Rotterdam 66265 61 circle
-Alexander Molina Guangzhou 99413 72 circle
-Brenda Rivera Québec 98609 60 triangle
-George Wright Abu Dhabi 94497 96 square
-Laura Perry Vancouver 92886 86 triangle
-Alexander Molina Guangzhou 99413 72 square
-Paul Robinson Singapore 68602 78 circle
+1. First name: Anthony
+Last name: Ramirez
+City: Sacramento
+Debt: 48765
+Weight: 73
+Mask form: triangle
+
+2. First name: Jose
+Last name: Phillips
+City: Melbourne
+Debt: 56801
+Weight: 83
+Mask form: circle
+
+3. First name: Aaron
+Last name: Martin
+City: Toronto
+Debt: 87778
+Weight: 59
+Mask form: circle
+
+4. First name: Gregory
+Last name: Hill
+City: Melbourne
+Debt: 48710
+Weight: 74
+Mask form: square
+
+5. First name: Emma
+Last name: Rodriguez
+City: Oakland
+Debt: 31302
+Weight: 87
+Mask form: triangle
+
+6. First name: Emma
+Last name: Rodriguez
+City: Oakland
+Debt: 31302
+Weight: 87
+Mask form: triangle
+
+7. First name: Dennis
+Last name: Miller
+City: Bangkok
+Debt: 13962
+Weight: 92
+Mask form: circle
+
+8. First name: Anthony
+Last name: Ramirez
+City: Sacramento
+Debt: 48765
+Weight: 73
+Mask form: square
+
+9. First name: Anthony
+Last name: Ramirez
+City: Sacramento
+Debt: 48765
+Weight: 73
+Mask form: square
+
