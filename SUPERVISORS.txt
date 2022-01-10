@@ -1,63 +1,63 @@
-1. First name: Ruth
-Last name: Martin
-City: Buenos Aires
-Debt: 23955
-Weight: 95
-Mask form: triangle
-
-2. First name: Victoria
-Last name: Mitchell
-City: Singapore
-Debt: 50853
-Weight: 77
-Mask form: circle
-
-3. First name: Patricia
-Last name: Murphy
-City: Newark
-Debt: 92800
-Weight: 92
-Mask form: circle
-
-4. First name: Timothy
-Last name: Lopez
-City: New York
-Debt: 67128
-Weight: 89
-Mask form: triangle
-
-5. First name: Victoria
-Last name: Mitchell
-City: Singapore
-Debt: 50853
-Weight: 77
-Mask form: square
-
-6. First name: Timothy
-Last name: Lopez
-City: New York
-Debt: 67128
-Weight: 89
-Mask form: circle
-
-7. First name: Patricia
-Last name: Murphy
-City: Newark
-Debt: 92800
-Weight: 92
-Mask form: triangle
-
-8. First name: Jose
+1. First name: Richard
 Last name: Thomas
-City: Busan
-Debt: 37104
-Weight: 60
+City: London
+Debt: 24577
+Weight: 96
+Mask form: circle
+
+2. First name: Anna
+Last name: Lee
+City: Providence
+Debt: 19891
+Weight: 83
 Mask form: square
 
-9. First name: Rachel
-Last name: Wilson
-City: Stuttgart
-Debt: 99119
-Weight: 99
+3. First name: Kimberly
+Last name: Molina
+City: Sacramento
+Debt: 14204
+Weight: 67
+Mask form: circle
+
+4. First name: Eric
+Last name: Watson
+City: Paris
+Debt: 13440
+Weight: 61
+Mask form: triangle
+
+5. First name: Jacob
+Last name: Delgado
+City: Brussels
+Debt: 69311
+Weight: 63
+Mask form: circle
+
+6. First name: Richard
+Last name: Thomas
+City: London
+Debt: 24577
+Weight: 96
+Mask form: triangle
+
+7. First name: Anna
+Last name: Lee
+City: Providence
+Debt: 19891
+Weight: 83
+Mask form: triangle
+
+8. First name: Jacob
+Last name: Delgado
+City: Brussels
+Debt: 69311
+Weight: 63
+Mask form: square
+
+9. First name: Jacob
+Last name: Delgado
+City: Brussels
+Debt: 69311
+Weight: 63
 Mask form: square
 

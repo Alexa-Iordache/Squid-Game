@@ -230,7 +230,6 @@ void displayInFile(fstream &file, int i, int nr, PERSON persons[], SUPERVISOR su
     file << endl;
 }
 
-
 // ---------------------------------------------------------------------------------------
 
 int verifyFileExists(string fileName)
@@ -551,6 +550,47 @@ int RulesOfGenken(int a, int b)
     return 0;     //este egalitate
 }
 
+void GENKEN(PLAYER players[], fstream &file, int finalPlayers[], int nbFinalPlayers)
+{
+    for (int j = 99; j >= 1; j--)
+    {
+        if (players[j].getEliminated() == 0)
+        {
+            int n = 1 + rand() % 3; //le acordam un numar random intre 1 si 3 inclusiv
+            players[j].setGenkenNumber(n);
+            file << players[j].getLastName() << " " << players[j].getFirstName() << " " << players[j].getGameNumber() << " " << players[j].getGenkenNumber() << endl;
+
+            //adaugam in vectorul finalPlayers numerele de concurs ale celor 7 finalisti
+            finalPlayers[++nbFinalPlayers] = players[j].getGameNumber();
+        }
+    }
+
+    for (int i = 1; i < 7; i++)
+    {
+        for (int j = i + 1; j <= 7; j++)
+        {
+            if (RulesOfGenken(players[finalPlayers[i]].getGenkenNumber(), players[finalPlayers[j]].getGenkenNumber()) == players[finalPlayers[i]].getGenkenNumber() && players[finalPlayers[i]].getEliminated() == 0 && players[finalPlayers[j]].getEliminated() == 0)
+            {
+                cout << players[finalPlayers[i]].getGameNumber() << " castiga" << endl;
+                players[finalPlayers[j]].setEliminated(1);
+            }
+            else
+            {
+                if (RulesOfGenken(players[finalPlayers[i]].getGenkenNumber(), players[finalPlayers[j]].getGenkenNumber()) == players[finalPlayers[j]].getGenkenNumber() && players[finalPlayers[i]].getEliminated() == 0 && players[finalPlayers[j]].getEliminated() == 0)
+                {
+                    cout << players[finalPlayers[j]].getGameNumber() << " castiga" << endl;
+                    players[finalPlayers[i]].setEliminated(1);
+                }
+            }
+        }
+    }
+
+    cout << "WINNER:" << endl;
+    for (int i = 1; i <= 99; i++)
+        if (players[i].getEliminated() == 0)
+            cout << players[i].getLastName() << " " << players[i].getFirstName() << " " << players[i].getGameNumber() << endl;
+}
+
 int main()
 {
     srand(time(NULL));
@@ -713,76 +753,10 @@ int main()
     FourthGameFile.open("FOURTHGame.txt", ios::out);
     if (verifyFileExists("FOURTHGame.txt") == 1)
     {
-        for (int j = 99; j >= 1; j--)
-        {
-            if (players[j].getEliminated() == 0)
-            {
-                int n = 1 + rand() % 3; //le acordam un numar random intre 1 si 3 inclusiv
-                players[j].setGenkenNumber(n);
-                FourthGameFile << players[j].getLastName() << " " << players[j].getFirstName() << " " << players[j].getGameNumber() << " " << players[j].getGenkenNumber() << endl;
-
-                //adaugam in vectorul finalPlayers numerele de concurs ale celor 7 finalisti
-                finalPlayers[++nbFinalPlayers] = players[j].getGameNumber();
-            }
-        }
+        GENKEN(players, FourthGameFile, finalPlayers, nbFinalPlayers);
     }
 
-    // for (int i = 1; i <= 7; i++)
-    //     cout << finalPlayers[i] << endl;
-
-    // for (int i = 1; i < 7; i++)
-    // {
-    //     if (players[finalPlayers[i]].getEliminated() == 0)
-    //     {
-    //         for (int j = i + 1; j <= 7; j++)
-    //         {
-    //             if ((RulesOfGenken(players[finalPlayers[i]].getGenkenNumber(), players[finalPlayers[j]].getGenkenNumber()) == players[finalPlayers[i]].getGenkenNumber()) && players[finalPlayers[j]].getEliminated() == 0)
-    //             {
-    //                 cout << players[finalPlayers[i]].getGameNumber() << " castiga" << endl;
-    //                 players[finalPlayers[j]].setEliminated(1);
-    //                 i++;
-    //             }
-    //             else
-    //             {
-    //                 if (RulesOfGenken(players[finalPlayers[i]].getGenkenNumber(), players[finalPlayers[j]].getGenkenNumber()) == players[finalPlayers[j]].getGenkenNumber() && players[finalPlayers[j]].getEliminated() == 0)
-    //                 {
-    //                     cout << players[finalPlayers[j]].getGameNumber() << " castiga" << endl;
-    //                     players[finalPlayers[i]].setEliminated(1);
-    //                     i++;
-    //                 }
-    //             }
-    //         }
-    //     }
-    // }
-
-    // for (int i = 1; i < 7; i++)
-    // {
-    //     int j = i + 1;
-    //     while (players[finalPlayers[i]].getEliminated() == 0)
-    //     {
-    //         if (RulesOfGenken(players[finalPlayers[i]].getGenkenNumber(), players[finalPlayers[j]].getGenkenNumber()) == players[finalPlayers[i]].getGenkenNumber())
-    //         {
-    //             cout << players[finalPlayers[i]].getGameNumber() << " castiga" << endl;
-    //             players[finalPlayers[j]].setEliminated(1);
-    //             j++;
-    //         }
-    //         else
-    //         {
-    //             if (RulesOfGenken(players[finalPlayers[i]].getGenkenNumber(), players[finalPlayers[j]].getGenkenNumber()) == players[finalPlayers[j]].getGenkenNumber() && players[finalPlayers[j]].getEliminated() == 0)
-    //             {
-    //                 cout << players[finalPlayers[j]].getGameNumber() << " castiga" << endl;
-    //                 players[finalPlayers[i]].setEliminated(1);
-    //                 //j++;
-    //             }
-    //         }
-    //         //j++;
-    //     }
-    // }
-
-    // cout << "WINNER:" << endl;
-    // for (int i = 1; i <= 99; i++)
-    //     if (players[i].getEliminated() == 0)
-    //         cout << players[i].getLastName() << " " << players[i].getFirstName() << " " << players[i].getGameNumber() << endl;
+    // !!! trebuie jucat pana ramane un singur jucator
 
     return 0;
 }
