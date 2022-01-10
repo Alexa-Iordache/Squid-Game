@@ -1,792 +1,693 @@
-First name: Michelle
-Last name: King
-City: Tel Aviv
-Debt: 44066
-Weight: 53
+First name: Heather
+Last name: Turner
+City: Rome
+Debt: 90596
+Weight: 66
 Game number: 1
-Has team? 0
 
-First name: Michelle
-Last name: Griffin
-City: The Hague
-Debt: 85518
-Weight: 55
+First name: Adam
+Last name: Torres
+City: Mexico City
+Debt: 36050
+Weight: 63
 Game number: 2
-Has team? 0
 
-First name: Alexander
-Last name: Thomas
-City: São Paulo
-Debt: 64617
-Weight: 98
+First name: Anna
+Last name: Brooks
+City: Brussels
+Debt: 21251
+Weight: 78
 Game number: 3
-Has team? 0
 
-First name: Janet
-Last name: Rogers
-City: São Paulo
-Debt: 32495
+First name: Jeffrey
+Last name: Molina
+City: Abu Dhabi
+Debt: 36879
 Weight: 51
 Game number: 4
-Has team? 0
 
-First name: Matthew
-Last name: Anderson
-City: Toronto
-Debt: 57074
+First name: Jason
+Last name: Brooks
+City: San Francisco - San Jose
+Debt: 36606
 Weight: 87
 Game number: 5
-Has team? 0
-
-First name: John
-Last name: White
-City: Santa Ana-Anaheim
-Debt: 57403
-Weight: 65
-Game number: 6
-Has team? 0
-
-First name: Michelle
-Last name: King
-City: Tel Aviv
-Debt: 44066
-Weight: 53
-Game number: 7
-Has team? 0
-
-First name: Deborah
-Last name: Murphy
-City: Istanbul
-Debt: 46632
-Weight: 100
-Game number: 8
-Has team? 0
-
-First name: Larry
-Last name: Green
-City: Manchester
-Debt: 15038
-Weight: 76
-Game number: 9
-Has team? 0
-
-First name: Joseph
-Last name: Scott
-City: Amsterdam
-Debt: 45089
-Weight: 61
-Game number: 10
-Has team? 0
-
-First name: Ruth
-Last name: Hall
-City: Miami
-Debt: 32133
-Weight: 85
-Game number: 11
-Has team? 0
 
 First name: Stephen
-Last name: Phillips
-City: New York
-Debt: 27574
-Weight: 64
-Game number: 12
-Has team? 0
+Last name: Jones
+City: Orlando
+Debt: 15738
+Weight: 83
+Game number: 6
 
-First name: Janet
-Last name: Jenkins
-City: Copenhagen
-Debt: 39386
-Weight: 71
-Game number: 13
-Has team? 0
+First name: Michael
+Last name: Anderson
+City: Taipei
+Debt: 70314
+Weight: 88
+Game number: 7
+
+First name: Patricia
+Last name: Gray
+City: Rotterdam
+Debt: 71205
+Weight: 72
+Game number: 8
+
+First name: Rachel
+Last name: Cook
+City: Rotterdam
+Debt: 63292
+Weight: 60
+Game number: 9
+
+First name: Timothy
+Last name: Lopez
+City: New York
+Debt: 67128
+Weight: 89
+Game number: 10
 
 First name: Aaron
-Last name: Mitchell
-City: Lyon
-Debt: 26714
-Weight: 89
+Last name: Washington
+City: Québec
+Debt: 40347
+Weight: 77
+Game number: 11
+
+First name: Richard
+Last name: Morgan
+City: Abu Dhabi
+Debt: 49227
+Weight: 77
+Game number: 12
+
+First name: Brian
+Last name: Kelly
+City: Las Vegas
+Debt: 22196
+Weight: 76
+Game number: 13
+
+First name: Ashley
+Last name: Flores
+City: Hamburg
+Debt: 79348
+Weight: 64
 Game number: 14
-Has team? 0
 
-First name: Larry
-Last name: Thomas
-City: Seattle
-Debt: 28523
-Weight: 71
-Game number: 15
-Has team? 0
-
-First name: Cynthia
-Last name: Collins
-City: Sydney
-Debt: 60138
-Weight: 66
-Game number: 16
-Has team? 0
-
-First name: Cynthia
-Last name: Collins
-City: Sydney
-Debt: 60138
-Weight: 66
-Game number: 17
-Has team? 0
-
-First name: Ruth
+First name: Amy
 Last name: Hall
-City: Miami
-Debt: 32133
-Weight: 85
+City: Milan
+Debt: 88278
+Weight: 68
+Game number: 15
+
+First name: Jose
+Last name: Barnes
+City: Beijing
+Debt: 85878
+Weight: 74
+Game number: 16
+
+First name: Catherine
+Last name: Ramirez
+City: Detroit
+Debt: 55012
+Weight: 76
+Game number: 17
+
+First name: Raymond
+Last name: Bailey
+City: Las Vegas
+Debt: 39219
+Weight: 78
 Game number: 18
-Has team? 0
+
+First name: Benjamin
+Last name: Griffin
+City: Los Angeles
+Debt: 54461
+Weight: 87
+Game number: 19
 
 First name: Sarah
-Last name: Jenkins
-City: Berlin
-Debt: 43561
-Weight: 93
-Game number: 19
-Has team? 0
+Last name: Molina
+City: Dubai
+Debt: 30451
+Weight: 77
+Game number: 20
 
 First name: Aaron
-Last name: Gonzalez
-City: Philadelphia
-Debt: 28980
-Weight: 56
-Game number: 20
-Has team? 0
-
-First name: Anthony
-Last name: Reed
-City: St Louis
-Debt: 11351
-Weight: 54
+Last name: Washington
+City: Québec
+Debt: 40347
+Weight: 77
 Game number: 21
-Has team? 0
 
-First name: Larry
-Last name: Green
-City: Manchester
-Debt: 15038
-Weight: 76
-Game number: 22
-Has team? 0
-
-First name: Henry
-Last name: Clark
-City: Tokyo
-Debt: 13872
-Weight: 71
-Game number: 23
-Has team? 0
-
-First name: Linda
-Last name: Evans
-City: Hong Kong
-Debt: 59283
-Weight: 59
-Game number: 24
-Has team? 0
-
-First name: Debra
-Last name: Butler
-City: Milan
-Debt: 88411
-Weight: 87
-Game number: 25
-Has team? 0
-
-First name: Melissa
-Last name: Allen
-City: Paris
-Debt: 17759
-Weight: 82
-Game number: 26
-Has team? 0
-
-First name: Linda
-Last name: Evans
-City: Hong Kong
-Debt: 59283
-Weight: 59
-Game number: 27
-Has team? 0
-
-First name: Carol
-Last name: Anderson
-City: Portland
-Debt: 42228
-Weight: 66
-Game number: 28
-Has team? 0
-
-First name: John
-Last name: White
-City: Santa Ana-Anaheim
-Debt: 57403
-Weight: 65
-Game number: 29
-Has team? 0
-
-First name: Linda
-Last name: Howard
-City: Milan
-Debt: 42954
-Weight: 76
-Game number: 30
-Has team? 0
-
-First name: Thomas
-Last name: Bennett
-City: Sacramento
-Debt: 78447
-Weight: 53
-Game number: 31
-Has team? 0
-
-First name: Kimberly
-Last name: Sanchez
+First name: George
+Last name: Powell
 City: Edinburgh
-Debt: 91598
-Weight: 61
-Game number: 32
-Has team? 0
+Debt: 29257
+Weight: 84
+Game number: 22
 
-First name: Gregory
-Last name: Hill
-City: Melbourne
-Debt: 48710
-Weight: 74
-Game number: 33
-Has team? 0
-
-First name: Emma
-Last name: Rodriguez
-City: Oakland
-Debt: 31302
-Weight: 87
-Game number: 34
-Has team? 0
-
-First name: Kimberly
-Last name: Allen
-City: Vienna
-Debt: 91167
-Weight: 92
-Game number: 35
-Has team? 0
+First name: Aaron
+Last name: Washington
+City: Québec
+Debt: 40347
+Weight: 77
+Game number: 23
 
 First name: Julie
-Last name: Watson
-City: The Hague
-Debt: 16525
-Weight: 92
-Game number: 36
-Has team? 0
-
-First name: Christopher
-Last name: Ward
+Last name: Morgan
 City: Minneapolis-St Paul
-Debt: 72011
-Weight: 71
-Game number: 37
-Has team? 0
+Debt: 22549
+Weight: 80
+Game number: 24
 
-First name: Christopher
-Last name: Ward
-City: Minneapolis-St Paul
-Debt: 72011
-Weight: 71
-Game number: 38
-Has team? 0
+First name: Patricia
+Last name: Gray
+City: Rotterdam
+Debt: 71205
+Weight: 72
+Game number: 25
 
-First name: Gary
-Last name: Gonzalez
-City: Pittsburgh
-Debt: 78031
-Weight: 78
-Game number: 39
-Has team? 0
-
-First name: Lisa
-Last name: Ortega
-City: Mexico City
-Debt: 10092
-Weight: 99
-Game number: 40
-Has team? 0
-
-First name: Amanda
-Last name: Martinez
-City: Melbourne
-Debt: 11585
-Weight: 82
-Game number: 41
-Has team? 0
-
-First name: Kimberly
-Last name: Allen
-City: Vienna
-Debt: 91167
-Weight: 92
-Game number: 42
-Has team? 0
-
-First name: Robert
-Last name: Scott
-City: Berlin
-Debt: 30634
-Weight: 54
-Game number: 43
-Has team? 0
-
-First name: Laura
-Last name: Smith
-City: Dallas-Fort Worth
-Debt: 35236
-Weight: 75
-Game number: 44
-Has team? 0
-
-First name: John
-Last name: White
-City: Santa Ana-Anaheim
-Debt: 57403
-Weight: 65
-Game number: 45
-Has team? 0
-
-First name: Samantha
-Last name: Martin
-City: Düsseldorf
-Debt: 50520
-Weight: 85
-Game number: 46
-Has team? 0
-
-First name: Debra
-Last name: Butler
-City: Milan
-Debt: 88411
-Weight: 87
-Game number: 47
-Has team? 0
-
-First name: Shirley
-Last name: Price
-City: Milan
-Debt: 90869
-Weight: 81
-Game number: 48
-Has team? 0
-
-First name: Patrick
-Last name: Rogers
-City: Philadelphia
-Debt: 26153
-Weight: 87
-Game number: 49
-Has team? 0
-
-First name: Jonathan
-Last name: Wright
-City: Paris
-Debt: 44378
-Weight: 55
-Game number: 50
-Has team? 0
-
-First name: John
-Last name: White
-City: Santa Ana-Anaheim
-Debt: 57403
-Weight: 65
-Game number: 51
-Has team? 0
-
-First name: Emily
-Last name: Rogers
-City: Copenhagen
-Debt: 26730
-Weight: 95
-Game number: 52
-Has team? 0
-
-First name: Matthew
-Last name: Anderson
-City: Toronto
-Debt: 57074
-Weight: 87
-Game number: 53
-Has team? 0
-
-First name: Joshua
-Last name: Ortiz
-City: Honolulu
-Debt: 34213
-Weight: 81
-Game number: 54
-Has team? 0
-
-First name: Stephen
-Last name: Phillips
-City: New York
-Debt: 27574
-Weight: 64
-Game number: 55
-Has team? 0
-
-First name: Robert
-Last name: Hayes
-City: San Antonio
-Debt: 92251
-Weight: 54
-Game number: 56
-Has team? 0
-
-First name: Amanda
-Last name: Thompson
-City: Hong Kong
-Debt: 51142
-Weight: 53
-Game number: 57
-Has team? 0
-
-First name: Michelle
-Last name: Griffin
-City: The Hague
-Debt: 85518
-Weight: 55
-Game number: 58
-Has team? 0
-
-First name: Jose
-Last name: Wright
-City: Oakland
-Debt: 53989
-Weight: 79
-Game number: 59
-Has team? 0
-
-First name: Laura
-Last name: Smith
-City: Dallas-Fort Worth
-Debt: 35236
-Weight: 75
-Game number: 60
-Has team? 0
-
-First name: Patrick
-Last name: Rogers
-City: Philadelphia
-Debt: 26153
-Weight: 87
-Game number: 61
-Has team? 0
-
-First name: Jose
-Last name: Adams
-City: Dubai
-Debt: 12801
-Weight: 68
-Game number: 62
-Has team? 0
-
-First name: Melissa
-Last name: Roberts
-City: Sydney
-Debt: 94823
-Weight: 95
-Game number: 63
-Has team? 0
-
-First name: Matthew
-Last name: Anderson
-City: Toronto
-Debt: 57074
-Weight: 87
-Game number: 64
-Has team? 0
-
-First name: Christopher
-Last name: Carter
-City: Paris
-Debt: 31124
-Weight: 60
-Game number: 65
-Has team? 0
-
-First name: Larry
-Last name: Green
-City: Manchester
-Debt: 15038
-Weight: 76
-Game number: 66
-Has team? 0
-
-First name: Mary
-Last name: Parker
-City: Riverside
-Debt: 85241
-Weight: 55
-Game number: 67
-Has team? 0
-
-First name: Carolyn
-Last name: Flores
-City: Honolulu
-Debt: 37883
-Weight: 64
-Game number: 68
-Has team? 0
-
-First name: John
-Last name: Delgado
-City: Riverside
-Debt: 83666
-Weight: 59
-Game number: 69
-Has team? 0
-
-First name: Gregory
-Last name: Hill
-City: Melbourne
-Debt: 48710
-Weight: 74
-Game number: 70
-Has team? 0
-
-First name: Christine
-Last name: Mitchell
-City: Lyon
-Debt: 99251
-Weight: 61
-Game number: 71
-Has team? 0
-
-First name: Linda
-Last name: Evans
-City: Hong Kong
-Debt: 59283
-Weight: 59
-Game number: 72
-Has team? 0
-
-First name: Laura
-Last name: Smith
-City: Dallas-Fort Worth
-Debt: 35236
-Weight: 75
-Game number: 73
-Has team? 0
-
-First name: Samantha
-Last name: Martin
-City: Düsseldorf
-Debt: 50520
-Weight: 85
-Game number: 74
-Has team? 0
-
-First name: Steven
-Last name: Griffin
-City: Montréal
-Debt: 73374
-Weight: 66
-Game number: 75
-Has team? 0
-
-First name: Thomas
-Last name: Bennett
-City: Sacramento
-Debt: 78447
-Weight: 53
-Game number: 76
-Has team? 0
-
-First name: Paul
-Last name: Rivera
-City: Kyoto
-Debt: 51885
-Weight: 63
-Game number: 77
-Has team? 0
-
-First name: Matthew
-Last name: Cook
-City: Oakland
-Debt: 39711
-Weight: 90
-Game number: 78
-Has team? 0
-
-First name: Jonathan
-Last name: Wright
-City: Paris
-Debt: 44378
-Weight: 55
-Game number: 79
-Has team? 0
-
-First name: Matthew
-Last name: Anderson
-City: Toronto
-Debt: 57074
-Weight: 87
-Game number: 80
-Has team? 0
-
-First name: Kimberly
-Last name: Stewart
-City: Charlotte
-Debt: 97162
-Weight: 62
-Game number: 81
-Has team? 0
-
-First name: Scott
-Last name: Rogers
-City: London
-Debt: 15906
-Weight: 83
-Game number: 82
-Has team? 0
-
-First name: Aaron
-Last name: Mitchell
-City: Lyon
-Debt: 26714
-Weight: 89
-Game number: 83
-Has team? 0
-
-First name: Paul
-Last name: Rivera
-City: Kyoto
-Debt: 51885
-Weight: 63
-Game number: 84
-Has team? 0
-
-First name: Laura
-Last name: Edwards
-City: Helsinki
-Debt: 71042
-Weight: 63
-Game number: 85
-Has team? 0
-
-First name: Samantha
-Last name: Martin
-City: Düsseldorf
-Debt: 50520
-Weight: 85
-Game number: 86
-Has team? 0
-
-First name: Frank
-Last name: Campbell
+First name: Jacob
+Last name: Lopez
 City: Detroit
-Debt: 31165
-Weight: 68
-Game number: 87
-Has team? 0
+Debt: 31870
+Weight: 82
+Game number: 26
 
-First name: Robert
-Last name: Scott
-City: Berlin
-Debt: 30634
-Weight: 54
-Game number: 88
-Has team? 0
+First name: Samuel
+Last name: Miller
+City: São Paulo
+Debt: 34427
+Weight: 67
+Game number: 27
+
+First name: Catherine
+Last name: Ramirez
+City: Detroit
+Debt: 55012
+Weight: 76
+Game number: 28
+
+First name: Henry
+Last name: Anderson
+City: Oslo
+Debt: 66050
+Weight: 59
+Game number: 29
+
+First name: Carol
+Last name: Foster
+City: Madrid
+Debt: 45075
+Weight: 59
+Game number: 30
+
+First name: Jason
+Last name: Brooks
+City: San Francisco - San Jose
+Debt: 36606
+Weight: 87
+Game number: 31
+
+First name: Samuel
+Last name: Miller
+City: São Paulo
+Debt: 34427
+Weight: 67
+Game number: 32
+
+First name: Susan
+Last name: Diaz
+City: Raleigh-Durham
+Debt: 71337
+Weight: 87
+Game number: 33
+
+First name: Brian
+Last name: Kelly
+City: Las Vegas
+Debt: 22196
+Weight: 76
+Game number: 34
+
+First name: Patricia
+Last name: Lee
+City: Sacramento
+Debt: 58587
+Weight: 91
+Game number: 35
+
+First name: Jeffrey
+Last name: Stewart
+City: Stockholm
+Debt: 96253
+Weight: 70
+Game number: 36
+
+First name: Anna
+Last name: Walker
+City: Vancouver
+Debt: 71950
+Weight: 80
+Game number: 37
+
+First name: Amy
+Last name: Hall
+City: Milan
+Debt: 88278
+Weight: 68
+Game number: 38
+
+First name: Sandra
+Last name: Wright
+City: Beijing
+Debt: 69986
+Weight: 69
+Game number: 39
 
 First name: Jose
-Last name: Phillips
-City: Melbourne
-Debt: 56801
-Weight: 83
-Game number: 89
-Has team? 0
+Last name: Thomas
+City: Busan
+Debt: 37104
+Weight: 60
+Game number: 40
+
+First name: Brian
+Last name: Kelly
+City: Las Vegas
+Debt: 22196
+Weight: 76
+Game number: 41
+
+First name: Kimberly
+Last name: Davis
+City: San Antonio
+Debt: 32363
+Weight: 98
+Game number: 42
+
+First name: Julie
+Last name: Morgan
+City: Minneapolis-St Paul
+Debt: 22549
+Weight: 80
+Game number: 43
+
+First name: Patricia
+Last name: Murphy
+City: Newark
+Debt: 92800
+Weight: 92
+Game number: 44
 
 First name: Nicholas
-Last name: Foster
-City: San Francisco - San Jose
-Debt: 39494
-Weight: 97
-Game number: 90
-Has team? 0
+Last name: Moore
+City: Montréal
+Debt: 39243
+Weight: 96
+Game number: 45
 
-First name: Joshua
-Last name: Ortiz
-City: Honolulu
-Debt: 34213
-Weight: 81
-Game number: 91
-Has team? 0
-
-First name: Melissa
-Last name: Allen
-City: Paris
-Debt: 17759
-Weight: 82
-Game number: 92
-Has team? 0
-
-First name: Joseph
-Last name: Scott
+First name: Daniel
+Last name: Turner
 City: Amsterdam
-Debt: 45089
-Weight: 61
+Debt: 89532
+Weight: 69
+Game number: 46
+
+First name: Eric
+Last name: Taylor
+City: Tel Aviv
+Debt: 79186
+Weight: 53
+Game number: 47
+
+First name: Richard
+Last name: Morgan
+City: Abu Dhabi
+Debt: 49227
+Weight: 77
+Game number: 48
+
+First name: Benjamin
+Last name: Bailey
+City: Frankfurt
+Debt: 39744
+Weight: 85
+Game number: 49
+
+First name: Sarah
+Last name: James
+City: Charlotte
+Debt: 56346
+Weight: 85
+Game number: 50
+
+First name: Jose
+Last name: Thomas
+City: Busan
+Debt: 37104
+Weight: 60
+Game number: 51
+
+First name: Brandon
+Last name: Long
+City: Las Vegas
+Debt: 81023
+Weight: 70
+Game number: 52
+
+First name: Jessica
+Last name: Sanchez
+City: Las Vegas
+Debt: 69881
+Weight: 75
+Game number: 53
+
+First name: Linda
+Last name: Peterson
+City: Buenos Aires
+Debt: 62795
+Weight: 100
+Game number: 54
+
+First name: Amy
+Last name: Taylor
+City: Athens
+Debt: 46151
+Weight: 89
+Game number: 55
+
+First name: Jose
+Last name: Thomas
+City: Busan
+Debt: 37104
+Weight: 60
+Game number: 56
+
+First name: Jose
+Last name: Gutierrez
+City: Budapest
+Debt: 58283
+Weight: 100
+Game number: 57
+
+First name: Jose
+Last name: Thomas
+City: Busan
+Debt: 37104
+Weight: 60
+Game number: 58
+
+First name: Rebecca
+Last name: Hayes
+City: Stuttgart
+Debt: 32774
+Weight: 96
+Game number: 59
+
+First name: Charles
+Last name: Rodriguez
+City: Kuala Lumpur
+Debt: 81066
+Weight: 74
+Game number: 60
+
+First name: Brian
+Last name: Taylor
+City: Moscow
+Debt: 61012
+Weight: 89
+Game number: 61
+
+First name: Jessica
+Last name: Cook
+City: Athens
+Debt: 50894
+Weight: 94
+Game number: 62
+
+First name: Julie
+Last name: Morgan
+City: Minneapolis-St Paul
+Debt: 22549
+Weight: 80
+Game number: 63
+
+First name: David
+Last name: Allen
+City: Seattle
+Debt: 42709
+Weight: 92
+Game number: 64
+
+First name: Jonathan
+Last name: Edwards
+City: Istanbul
+Debt: 33715
+Weight: 67
+Game number: 65
+
+First name: Jacob
+Last name: Kelly
+City: Manchester
+Debt: 14190
+Weight: 100
+Game number: 66
+
+First name: Daniel
+Last name: Turner
+City: Amsterdam
+Debt: 89532
+Weight: 69
+Game number: 67
+
+First name: Angela
+Last name: King
+City: Cologne
+Debt: 39604
+Weight: 67
+Game number: 68
+
+First name: Nicole
+Last name: Baker
+City: Minneapolis-St Paul
+Debt: 18821
+Weight: 62
+Game number: 69
+
+First name: Jessica
+Last name: Sanchez
+City: Las Vegas
+Debt: 69881
+Weight: 75
+Game number: 70
+
+First name: Kimberly
+Last name: Davis
+City: San Antonio
+Debt: 32363
+Weight: 98
+Game number: 71
+
+First name: Rebecca
+Last name: Hayes
+City: Stuttgart
+Debt: 32774
+Weight: 96
+Game number: 72
+
+First name: Jose
+Last name: Garcia
+City: Abu Dhabi
+Debt: 37434
+Weight: 52
+Game number: 73
+
+First name: Patricia
+Last name: Murphy
+City: Newark
+Debt: 92800
+Weight: 92
+Game number: 74
+
+First name: David
+Last name: Allen
+City: Seattle
+Debt: 42709
+Weight: 92
+Game number: 75
+
+First name: Daniel
+Last name: Foster
+City: Madrid
+Debt: 35359
+Weight: 78
+Game number: 76
+
+First name: Henry
+Last name: Anderson
+City: Oslo
+Debt: 66050
+Weight: 59
+Game number: 77
+
+First name: Stephen
+Last name: Jones
+City: Orlando
+Debt: 15738
+Weight: 83
+Game number: 78
+
+First name: Robert
+Last name: Richardson
+City: Shanghai
+Debt: 70116
+Weight: 82
+Game number: 79
+
+First name: Timothy
+Last name: Lopez
+City: New York
+Debt: 67128
+Weight: 89
+Game number: 80
+
+First name: Patrick
+Last name: Turner
+City: Beijing
+Debt: 30645
+Weight: 92
+Game number: 81
+
+First name: Katherine
+Last name: Perry
+City: Guangzhou
+Debt: 58563
+Weight: 53
+Game number: 82
+
+First name: Kimberly
+Last name: Davis
+City: San Antonio
+Debt: 32363
+Weight: 98
+Game number: 83
+
+First name: Sarah
+Last name: Molina
+City: Dubai
+Debt: 30451
+Weight: 77
+Game number: 84
+
+First name: Jose
+Last name: Bryant
+City: Atlanta
+Debt: 72217
+Weight: 78
+Game number: 85
+
+First name: Henry
+Last name: Adams
+City: Amsterdam
+Debt: 20722
+Weight: 71
+Game number: 86
+
+First name: Jessica
+Last name: Cook
+City: Athens
+Debt: 50894
+Weight: 94
+Game number: 87
+
+First name: Amanda
+Last name: Torres
+City: Moscow
+Debt: 84372
+Weight: 69
+Game number: 88
+
+First name: Lisa
+Last name: Hill
+City: Nashville
+Debt: 92977
+Weight: 59
+Game number: 89
+
+First name: Brian
+Last name: Taylor
+City: Moscow
+Debt: 61012
+Weight: 89
+Game number: 90
+
+First name: Eric
+Last name: Taylor
+City: Tel Aviv
+Debt: 79186
+Weight: 53
+Game number: 91
+
+First name: Larry
+Last name: Alexander
+City: Brussels
+Debt: 51572
+Weight: 56
+Game number: 92
+
+First name: Heather
+Last name: Turner
+City: Rome
+Debt: 90596
+Weight: 66
 Game number: 93
-Has team? 0
+
+First name: Sarah
+Last name: James
+City: Charlotte
+Debt: 56346
+Weight: 85
+Game number: 94
+
+First name: Amanda
+Last name: Torres
+City: Moscow
+Debt: 84372
+Weight: 69
+Game number: 95
+
+First name: Amanda
+Last name: Torres
+City: Moscow
+Debt: 84372
+Weight: 69
+Game number: 96
 
 First name: Emily
-Last name: Rogers
-City: Copenhagen
-Debt: 26730
-Weight: 95
-Game number: 94
-Has team? 0
-
-First name: Linda
-Last name: Howard
-City: Milan
-Debt: 42954
-Weight: 76
-Game number: 95
-Has team? 0
-
-First name: Linda
-Last name: Howard
-City: Milan
-Debt: 42954
-Weight: 76
-Game number: 96
-Has team? 0
-
-First name: Carolyn
-Last name: Flores
-City: Honolulu
-Debt: 37883
-Weight: 64
+Last name: Brown
+City: Philadelphia
+Debt: 42910
+Weight: 71
 Game number: 97
-Has team? 0
 
-First name: Melissa
-Last name: Roberts
-City: Sydney
-Debt: 94823
-Weight: 95
+First name: Ruth
+Last name: Patterson
+City: São Paulo
+Debt: 49281
+Weight: 85
 Game number: 98
-Has team? 0
 
-First name: Laura
-Last name: Edwards
-City: Helsinki
-Debt: 71042
-Weight: 63
+First name: Samuel
+Last name: Miller
+City: São Paulo
+Debt: 34427
+Weight: 67
 Game number: 99
-Has team? 0
 

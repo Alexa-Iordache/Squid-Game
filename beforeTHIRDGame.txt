@@ -1,0 +1,30 @@
+Last name  First name  Game number  Random number
+
+ Echipa 1
+Patrick Turner 81 21
+Jason Brooks 5 39
+
+ Echipa 2
+Aaron Washington 11 75
+Jessica Cook 87 98
+
+ Echipa 3
+Amy Taylor 55 2
+Sandra Wright 39 17
+
+ Echipa 4
+Aaron Washington 23 98
+Kimberly Davis 71 34
+
+ Echipa 5
+Patricia Lee 35 17
+Eric Taylor 91 28
+
+ Echipa 6
+Anna Walker 37 94
+Catherine Ramirez 17 36
+
+ Echipa 7
+Amy Hall 15 7
+Benjamin Bailey 49 19
+

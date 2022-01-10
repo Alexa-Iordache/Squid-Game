@@ -97,13 +97,22 @@ class PLAYER : public PERSON
 {
 private:
     int game_number;
-    int hasTeam;
+    int hasTeam; //ne ajutam de acest atribut pentru a forma echipele
+    int eliminated;
+    int random_number;
+    int genken_number;
 
 public:
     void setGameNumber(int game_number);
     void setHasTeam(int hasTeam);
+    void setEliminated(int eliminated);
+    void setRandomNumber(int random_number);
+    void setGenkenNumber(int genken_numer);
     int getGameNumber();
     int getHasTeam();
+    int getEliminated();
+    int getRandomNumber();
+    int getGenkenNumber();
     void displayPlayer();
     void displayInFile(fstream &file, int i, int nr, PERSON persons[], PLAYER players[]);
 };
@@ -118,6 +127,21 @@ void PLAYER::setHasTeam(int hasTeam)
     this->hasTeam = hasTeam;
 }
 
+void PLAYER::setEliminated(int eliminated)
+{
+    this->eliminated = eliminated;
+}
+
+void PLAYER::setRandomNumber(int random_number)
+{
+    this->random_number = random_number;
+}
+
+void PLAYER::setGenkenNumber(int genken_number)
+{
+    this->genken_number = genken_number;
+}
+
 int PLAYER::getGameNumber()
 {
     return this->game_number;
@@ -128,11 +152,26 @@ int PLAYER::getHasTeam()
     return this->hasTeam;
 }
 
+int PLAYER::getEliminated()
+{
+    return this->eliminated;
+}
+
+int PLAYER::getRandomNumber()
+{
+    return this->random_number;
+}
+
+int PLAYER::getGenkenNumber()
+{
+    return this->genken_number;
+}
+
 void PLAYER::displayPlayer()
 {
     displayPerson();
     cout << "Game number: " << this->getGameNumber() << endl;
-    cout << "Has team? " << this->getHasTeam() << endl;
+    //cout << "Has team? " << this->getHasTeam() << endl;
     cout << endl;
 }
 
@@ -145,7 +184,7 @@ void displayInFile(fstream &file, int i, int nr, PERSON persons[], PLAYER player
     file << "Debt: " << persons[nr].getDebt() << endl;
     file << "Weight: " << persons[nr].getWeight() << endl;
     file << "Game number: " << i << endl;
-    file << "Has team? " << players[i].getHasTeam() << endl;
+    // file << "Has team? " << players[i].getHasTeam() << endl;
     file << endl;
 }
 
@@ -191,6 +230,7 @@ void displayInFile(fstream &file, int i, int nr, PERSON persons[], SUPERVISOR su
     file << endl;
 }
 
+
 // ---------------------------------------------------------------------------------------
 
 int verifyFileExists(string fileName)
@@ -219,31 +259,6 @@ void openFile(string nameFile, string array[])
     }
     file.close();
 }
-
-// template <typename X>
-// X minim(X a, X b)
-// {
-//     if (a == b)
-//         return NULL;
-//     return (a < b) ? a : b;
-// }
-
-// bool verifyDuplicity (int arr[])
-// {
-//     int sizeArray = sizeof(arr)/sizeof(arr[0]);
-//     bool var = true;
-//     for (int i = 1; i <= sizeArray; i++)
-//     {
-//         for (int j = i; j <= sizeArray; j++)
-//         {
-//             if(arr[i] == arr[j])
-//             {
-//                 var = false;
-//             }
-//         }
-//     }
-//     return var;
-// }
 
 string randomMaskForm(int nb2, int *nb_circles, int *nb_triangles, int *nb_squares)
 {
@@ -310,7 +325,7 @@ string randomMaskForm(int nb2, int *nb_circles, int *nb_triangles, int *nb_squar
     return "nothing";
 }
 
-void makeGroups (SUPERVISOR supervisors[], PLAYER players[], fstream &file, string maskForm)
+void makeGroups(SUPERVISOR supervisors[], PLAYER players[], fstream &file, string maskForm)
 {
     for (int i = 1; i <= 9; i++)
     {
@@ -336,6 +351,206 @@ void makeGroups (SUPERVISOR supervisors[], PLAYER players[], fstream &file, stri
     file << endl;
 }
 
+void RED_LIGHT_GREEN_LIGHT(PLAYER players[], fstream &file)
+{
+    int contor = 1;
+    for (int i = 1; i <= 99; i++)
+    {
+        if (players[i].getGameNumber() % 2 != 0)
+        {
+            file << players[i].getLastName() << " " << players[i].getFirstName() << " " << players[i].getGameNumber() << endl;
+            contor++;
+        }
+        else
+        {
+            players[i].setEliminated(1);
+        }
+    }
+}
+
+void makeGroupsForSecondGame(PLAYER players[], fstream &file, int m[5][13])
+{
+    for (int i = 1; i <= 99; i++)
+    {
+        players[i].setHasTeam(0);
+    }
+    for (int i = 1; i <= 4; i++)
+    {
+        file << " Echipa " << i << endl;
+        int col = 0;
+
+        for (int j = 1; j <= 12; j++)
+        {
+            int nr = 1 + rand() % 99;
+            if (players[nr].getHasTeam() == 0 && players[nr].getGameNumber() % 2 != 0)
+            {
+                file << players[nr].getLastName() << " " << players[nr].getFirstName() << " " << players[nr].getGameNumber() << endl;
+                players[nr].setHasTeam(1);
+                m[i][++col] = players[nr].getGameNumber();
+            }
+            else
+                j--;
+        }
+        file << endl;
+    }
+}
+
+void TUG_OF_WAR(PLAYER players[], fstream &file, int m[5][13])
+{
+    int sum[5];
+    for (int i = 1; i <= 4; i++)
+    {
+        sum[i] = 0;
+        for (int j = 1; j <= 12; j++)
+        {
+            sum[i] = sum[i] + players[m[i][j]].getWeight();
+        }
+    }
+
+    cout << "Greutatile echipelor sunt: " << endl;
+    cout << "Echipa 1: " << sum[1] << endl;
+    cout << "Echipa 2: " << sum[2] << endl;
+    cout << "Echipa 3: " << sum[3] << endl;
+    cout << "Echipa 4: " << sum[4] << endl;
+
+    int maxWeightRound1 = 0, maxWeightRound2 = 0, maxWeight = 0;
+    int winner1, winner2, winner;
+
+    //se dueleaza prima echipa cu a doua
+    if (sum[1] > sum[2])
+    {
+        maxWeightRound1 = sum[1];
+        winner1 = 1;
+    }
+    else
+    {
+        maxWeightRound1 = sum[2];
+        winner1 = 2;
+    }
+
+    //se dueleaza a treia echipa cu a patra
+    if (sum[3] > sum[4])
+    {
+        maxWeightRound2 = sum[3];
+        winner2 = 3;
+    }
+    else
+    {
+        maxWeightRound2 = sum[4];
+        winner2 = 4;
+    }
+
+    //se dueleaza echipele castigatoare de la meciurile anterioare
+    if (sum[winner1] > sum[winner2])
+    {
+        maxWeight = sum[winner1];
+        winner = winner1;
+    }
+    else
+    {
+        maxWeight = sum[winner2];
+        winner = winner2;
+    }
+
+    cout << "Greutatea maxima este: " << maxWeight << " si este a echipei " << winner << endl;
+
+    for (int i = 1; i <= 4; i++)
+    {
+        if (i != winner)
+        {
+            for (int j = 1; j <= 12; j++)
+            {
+                players[m[i][j]].setEliminated(1);
+            }
+        }
+    }
+
+    int j = 0;
+    for (int i = 1; i <= 99; i++)
+    {
+        if (players[i].getEliminated() == 0)
+        {
+            file << players[i].getLastName() << " " << players[i].getFirstName() << " " << players[i].getGameNumber() << " " << endl;
+        }
+    }
+}
+
+void makeGroupsForThirdGame(PLAYER players[], fstream &file, int m[8][3])
+{
+    //daca nu sunt eliminati setam atributul de echipa in 0 (sa figureze ca nu are echipa)
+    for (int i = 1; i <= 99; i++)
+    {
+        if (players[i].getEliminated() == 0)
+            players[i].setHasTeam(0);
+    }
+
+    file << "Last name"
+         << "  "
+         << "First name"
+         << "  "
+         << "Game number"
+         << "  "
+         << "Random number" << endl;
+    file << endl;
+
+    for (int i = 1; i <= 7; i++)
+    {
+        file << " Echipa " << i << endl;
+
+        for (int j = 1; j <= 2; j++)
+        {
+            int nr = 1 + rand() % 99;
+
+            if (players[nr].getHasTeam() == 0 && players[nr].getEliminated() == 0)
+            {
+                // dam un numar radom (intre 1 si 99) fiecarui jucator ramas
+                int n = 1 + rand() % 99;
+                players[nr].setRandomNumber(n);
+
+                file << players[nr].getLastName() << " " << players[nr].getFirstName() << " " << players[nr].getGameNumber() << " " << players[nr].getRandomNumber() << endl;
+                players[nr].setHasTeam(1);
+
+                //adaugam in matricea m numarul de concurs al jucatorilor astfel: pe fiecare linie se
+                //afla numerele de concurs al jucatorilor dintr-o echipe (deci matricea m are in total
+                //7 linii pentru ca sunt 7 echipe)
+                m[i][j] = players[nr].getGameNumber();
+            }
+            else
+                j--;
+        }
+        file << endl;
+    }
+}
+
+void MARBLES(PLAYER players[], fstream &file, int m[8][3])
+{
+    for (int i = 1; i <= 7; i++)
+    {
+        if (players[m[i][1]].getRandomNumber() > players[m[i][2]].getRandomNumber())
+            players[m[i][2]].setEliminated(1);
+        else
+            players[m[i][1]].setEliminated(1);
+    }
+
+    for (int i = 99; i >= 1; i--)
+    {
+        if (players[i].getEliminated() == 0)
+            file << players[i].getLastName() << " " << players[i].getFirstName() << " " << players[i].getGameNumber() << endl;
+    }
+}
+
+int RulesOfGenken(int a, int b)
+{
+    // 1 = piatra; 2 = hartie; 3 = foarfece
+    if ((a == 1 && b == 2) || (b == 1 && a == 2))
+        return 2; //castiga hartia
+    if ((a == 1 && b == 3) || (b == 1 && a == 3))
+        return 1; // castiga piatra
+    if ((a == 2 && b == 3) || (b == 2 && a == 3))
+        return 3; //castiga foarfeca
+    return 0;     //este egalitate
+}
+
 int main()
 {
     srand(time(NULL));
@@ -346,7 +561,6 @@ int main()
     string firstNamesArray[109] = {};
     string lastNamesArray[109] = {};
     string citiesArray[109] = {};
-    //int gameNumbersArray[100];
 
     openFile("NAMES.txt", firstNamesArray);
     openFile("LASTNAMES.txt", lastNamesArray);
@@ -387,6 +601,7 @@ int main()
             int nr = 1 + rand() % 99;
             players[i].setPerson(persons[nr].getLastName(), persons[nr].getFirstName(), persons[nr].getCity(), persons[nr].getDebt(), persons[nr].getWeight());
             players[i].setHasTeam(0);
+            players[i].setEliminated(0);
 
             players[i].setGameNumber(i);
             displayInFile(playersFile, i, nr, persons, players);
@@ -423,11 +638,151 @@ int main()
         supervisorsFile.open("SUPERVISORS.txt", ios::in);
         if (verifyFileExists("SUPERVISORS.txt") == 1)
         {
-            makeGroups (supervisors, players, teamsFile, "circle");
-            makeGroups (supervisors, players, teamsFile, "triangle");
-            makeGroups (supervisors, players, teamsFile, "square");
+            makeGroups(supervisors, players, teamsFile, "circle");
+            makeGroups(supervisors, players, teamsFile, "triangle");
+            makeGroups(supervisors, players, teamsFile, "square");
         }
     }
+
+    // -------------------------------- RED LIGHT GREEN LIGHT---------------------------------
+
+    fstream afterFirstGameFile; //fisier in care stocam jucatorii ramasi dupa primul joc
+    afterFirstGameFile.open("FIRSTGame.txt", ios::out);
+    if (verifyFileExists("FIRSTGame.txt") == 1)
+    {
+        RED_LIGHT_GREEN_LIGHT(players, afterFirstGameFile);
+    }
+
+    int m[5][13] = {0};
+    fstream groupsForSecongGame;
+    groupsForSecongGame.open("beforeSECONDGame.txt", ios::out);
+    if (verifyFileExists("beforeSECONDGame.txt") == 1)
+    {
+        makeGroupsForSecondGame(players, groupsForSecongGame, m);
+    }
+
+    // for (int i = 1; i <= 4; i++)
+    // {
+    //     for (int j = 1; j <= 12; j++)
+    //     {
+    //         cout << m[i][j] << " ";
+    //     }
+    //     cout << endl;
+    // }
+
+    // -------------------------------- TUG OF WAR ---------------------------------
+
+    fstream afterSecondGameFile;
+    afterSecondGameFile.open("SECONDGame.txt", ios::out);
+    if (verifyFileExists("SECONDGame.txt") == 1)
+    {
+        TUG_OF_WAR(players, afterSecondGameFile, m);
+    }
+
+    // -------------------------------- MARBLES ---------------------------------
+
+    int m2[8][3] = {0};
+    fstream groupsForThirdGameFile;
+    groupsForThirdGameFile.open("beforeTHIRDGame.txt", ios::out);
+    if (verifyFileExists("beforeTHIRDGame.txt") == 1)
+    {
+        makeGroupsForThirdGame(players, groupsForThirdGameFile, m2);
+    }
+
+    // for (int i = 1; i <= 7; i++)B
+    // {
+    //     for (int j = 1; j <= 2; j++)
+    //     {
+    //         cout << m2[i][j] << " ";
+    //     }
+    //     cout << endl;
+    // }
+
+    fstream afterThirdGameFile;
+    afterThirdGameFile.open("THIRDGame.txt", ios::out);
+    if (verifyFileExists("THIRDGame.txt") == 1)
+    {
+        MARBLES(players, afterThirdGameFile, m2);
+    }
+
+    // -------------------------------- GENKEN ---------------------------------
+
+    int finalPlayers[8];
+    int nbFinalPlayers = 0;
+    fstream FourthGameFile;
+    FourthGameFile.open("FOURTHGame.txt", ios::out);
+    if (verifyFileExists("FOURTHGame.txt") == 1)
+    {
+        for (int j = 99; j >= 1; j--)
+        {
+            if (players[j].getEliminated() == 0)
+            {
+                int n = 1 + rand() % 3; //le acordam un numar random intre 1 si 3 inclusiv
+                players[j].setGenkenNumber(n);
+                FourthGameFile << players[j].getLastName() << " " << players[j].getFirstName() << " " << players[j].getGameNumber() << " " << players[j].getGenkenNumber() << endl;
+
+                //adaugam in vectorul finalPlayers numerele de concurs ale celor 7 finalisti
+                finalPlayers[++nbFinalPlayers] = players[j].getGameNumber();
+            }
+        }
+    }
+
+    // for (int i = 1; i <= 7; i++)
+    //     cout << finalPlayers[i] << endl;
+
+    // for (int i = 1; i < 7; i++)
+    // {
+    //     if (players[finalPlayers[i]].getEliminated() == 0)
+    //     {
+    //         for (int j = i + 1; j <= 7; j++)
+    //         {
+    //             if ((RulesOfGenken(players[finalPlayers[i]].getGenkenNumber(), players[finalPlayers[j]].getGenkenNumber()) == players[finalPlayers[i]].getGenkenNumber()) && players[finalPlayers[j]].getEliminated() == 0)
+    //             {
+    //                 cout << players[finalPlayers[i]].getGameNumber() << " castiga" << endl;
+    //                 players[finalPlayers[j]].setEliminated(1);
+    //                 i++;
+    //             }
+    //             else
+    //             {
+    //                 if (RulesOfGenken(players[finalPlayers[i]].getGenkenNumber(), players[finalPlayers[j]].getGenkenNumber()) == players[finalPlayers[j]].getGenkenNumber() && players[finalPlayers[j]].getEliminated() == 0)
+    //                 {
+    //                     cout << players[finalPlayers[j]].getGameNumber() << " castiga" << endl;
+    //                     players[finalPlayers[i]].setEliminated(1);
+    //                     i++;
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
+
+    // for (int i = 1; i < 7; i++)
+    // {
+    //     int j = i + 1;
+    //     while (players[finalPlayers[i]].getEliminated() == 0)
+    //     {
+    //         if (RulesOfGenken(players[finalPlayers[i]].getGenkenNumber(), players[finalPlayers[j]].getGenkenNumber()) == players[finalPlayers[i]].getGenkenNumber())
+    //         {
+    //             cout << players[finalPlayers[i]].getGameNumber() << " castiga" << endl;
+    //             players[finalPlayers[j]].setEliminated(1);
+    //             j++;
+    //         }
+    //         else
+    //         {
+    //             if (RulesOfGenken(players[finalPlayers[i]].getGenkenNumber(), players[finalPlayers[j]].getGenkenNumber()) == players[finalPlayers[j]].getGenkenNumber() && players[finalPlayers[j]].getEliminated() == 0)
+    //             {
+    //                 cout << players[finalPlayers[j]].getGameNumber() << " castiga" << endl;
+    //                 players[finalPlayers[i]].setEliminated(1);
+    //                 //j++;
+    //             }
+    //         }
+    //         //j++;
+    //     }
+    // }
+
+    // cout << "WINNER:" << endl;
+    // for (int i = 1; i <= 99; i++)
+    //     if (players[i].getEliminated() == 0)
+    //         cout << players[i].getLastName() << " " << players[i].getFirstName() << " " << players[i].getGameNumber() << endl;
 
     return 0;
 }

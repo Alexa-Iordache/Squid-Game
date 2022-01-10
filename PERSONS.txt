@@ -1,648 +1,648 @@
-1. First name: Joshua
-Last name: Miller
-City: Mumbai
-Debt: 17539
+1. First name: Ruth
+Last name: Patterson
+City: São Paulo
+Debt: 49281
 Weight: 85
 
-2. First name: Gregory
-Last name: Hill
-City: Melbourne
-Debt: 48710
-Weight: 74
-
-3. First name: Jose
-Last name: Phillips
-City: Melbourne
-Debt: 56801
-Weight: 83
-
-4. First name: Aaron
+2. First name: Ruth
 Last name: Martin
-City: Toronto
-Debt: 87778
-Weight: 59
+City: Buenos Aires
+Debt: 23955
+Weight: 95
 
-5. First name: Joshua
-Last name: Nelson
-City: Madrid
-Debt: 49918
-Weight: 70
+3. First name: Rachel
+Last name: Wilson
+City: Stuttgart
+Debt: 99119
+Weight: 99
 
-6. First name: Dennis
-Last name: Miller
-City: Bangkok
-Debt: 13962
+4. First name: Patricia
+Last name: Murphy
+City: Newark
+Debt: 92800
 Weight: 92
 
-7. First name: Carol
-Last name: Anderson
-City: Portland
-Debt: 42228
-Weight: 66
-
-8. First name: Emma
-Last name: Rodriguez
-City: Oakland
-Debt: 31302
-Weight: 87
-
-9. First name: Anthony
-Last name: Ramirez
-City: Sacramento
-Debt: 48765
-Weight: 73
-
-10. First name: Ruth
-Last name: Hall
-City: Miami
-Debt: 32133
-Weight: 85
-
-11. First name: Henry
-Last name: Clark
-City: Tokyo
-Debt: 13872
-Weight: 71
-
-12. First name: Ronald
-Last name: Torres
-City: Denver
-Debt: 99699
-Weight: 55
-
-13. First name: Thomas
-Last name: Bennett
-City: Sacramento
-Debt: 78447
-Weight: 53
-
-14. First name: Emily
-Last name: Lewis
-City: Charlotte
-Debt: 92329
-Weight: 88
-
-15. First name: Aaron
+5. First name: Victoria
 Last name: Mitchell
-City: Lyon
-Debt: 26714
+City: Singapore
+Debt: 50853
+Weight: 77
+
+6. First name: Barbara
+Last name: Davis
+City: Athens
+Debt: 22933
+Weight: 67
+
+7. First name: Jose
+Last name: Thomas
+City: Busan
+Debt: 37104
+Weight: 60
+
+8. First name: Jose
+Last name: Gutierrez
+City: Budapest
+Debt: 58283
+Weight: 100
+
+9. First name: Timothy
+Last name: Lopez
+City: New York
+Debt: 67128
 Weight: 89
 
-16. First name: Nancy
-Last name: Alexander
-City: Mumbai
-Debt: 25322
-Weight: 53
-
-17. First name: Gary
-Last name: Perez
-City: Zürich
-Debt: 14042
-Weight: 68
-
-18. First name: Paul
-Last name: Rivera
-City: Kyoto
-Debt: 51885
-Weight: 63
-
-19. First name: Matthew
-Last name: James
-City: New York
-Debt: 92306
-Weight: 82
-
-20. First name: Nicole
-Last name: Alexander
-City: Taipei
-Debt: 73187
-Weight: 77
-
-21. First name: Mary
-Last name: Parker
-City: Riverside
-Debt: 85241
-Weight: 55
-
-22. First name: Larry
-Last name: Thomas
-City: Seattle
-Debt: 28523
-Weight: 71
-
-23. First name: Benjamin
-Last name: Thomas
-City: Detroit
-Debt: 40843
-Weight: 71
-
-24. First name: Robert
-Last name: Hayes
-City: San Antonio
-Debt: 92251
-Weight: 54
-
-25. First name: Amanda
-Last name: Martinez
-City: Melbourne
-Debt: 11585
-Weight: 82
-
-26. First name: Matthew
-Last name: Cook
-City: Oakland
-Debt: 39711
-Weight: 90
-
-27. First name: John
-Last name: White
-City: Santa Ana-Anaheim
-Debt: 57403
-Weight: 65
-
-28. First name: Laura
-Last name: Smith
-City: Dallas-Fort Worth
-Debt: 35236
-Weight: 75
-
-29. First name: Pamela
-Last name: Murphy
-City: Phoenix
-Debt: 79756
-Weight: 92
-
-30. First name: Jose
-Last name: Adams
-City: Dubai
-Debt: 12801
-Weight: 68
-
-31. First name: Julie
-Last name: Watson
-City: The Hague
-Debt: 16525
-Weight: 92
-
-32. First name: Catherine
-Last name: Diaz
-City: Barcelona
-Debt: 90191
-Weight: 56
-
-33. First name: Amanda
-Last name: Thompson
-City: Hong Kong
-Debt: 51142
-Weight: 53
-
-34. First name: Edward
-Last name: Ortiz
-City: Phoenix
-Debt: 41879
-Weight: 59
-
-35. First name: Frank
-Last name: Campbell
-City: Detroit
-Debt: 31165
-Weight: 68
-
-36. First name: Stephen
-Last name: Phillips
-City: New York
-Debt: 27574
-Weight: 64
-
-37. First name: Jose
-Last name: Wright
-City: Oakland
-Debt: 53989
-Weight: 79
-
-38. First name: Cynthia
-Last name: Collins
-City: Sydney
-Debt: 60138
-Weight: 66
-
-39. First name: Christopher
-Last name: Carter
-City: Paris
-Debt: 31124
-Weight: 60
-
-40. First name: Alexander
-Last name: Thomas
-City: São Paulo
-Debt: 64617
-Weight: 98
-
-41. First name: Michelle
-Last name: King
-City: Tel Aviv
-Debt: 44066
-Weight: 53
-
-42. First name: Matthew
-Last name: Anderson
-City: Toronto
-Debt: 57074
+10. First name: Jason
+Last name: Brooks
+City: San Francisco - San Jose
+Debt: 36606
 Weight: 87
 
-43. First name: Christine
-Last name: Ward
+11. First name: Sarah
+Last name: Molina
 City: Dubai
-Debt: 16377
-Weight: 94
+Debt: 30451
+Weight: 77
 
-44. First name: Steven
-Last name: Griffin
-City: Montréal
-Debt: 73374
-Weight: 66
+12. First name: Henry
+Last name: Anderson
+City: Oslo
+Debt: 66050
+Weight: 59
 
-45. First name: George
-Last name: Lee
-City: Busan
-Debt: 64382
-Weight: 78
+13. First name: Lisa
+Last name: Hill
+City: Nashville
+Debt: 92977
+Weight: 59
 
-46. First name: Kimberly
-Last name: Allen
-City: Vienna
-Debt: 91167
-Weight: 92
+14. First name: Amy
+Last name: Hall
+City: Milan
+Debt: 88278
+Weight: 68
 
-47. First name: Sarah
-Last name: Jenkins
-City: Berlin
-Debt: 43561
-Weight: 93
-
-48. First name: Anthony
-Last name: Reed
-City: St Louis
-Debt: 11351
-Weight: 54
-
-49. First name: Henry
-Last name: Price
-City: Kuala Lumpur
-Debt: 42054
-Weight: 88
-
-50. First name: Benjamin
-Last name: Young
-City: Rome
-Debt: 64240
-Weight: 55
-
-51. First name: Michelle
-Last name: Griffin
-City: The Hague
-Debt: 85518
-Weight: 55
-
-52. First name: Samantha
-Last name: Martin
-City: Düsseldorf
-Debt: 50520
+15. First name: Benjamin
+Last name: Bailey
+City: Frankfurt
+Debt: 39744
 Weight: 85
 
-53. First name: Robert
-Last name: Scott
-City: Berlin
-Debt: 30634
-Weight: 54
+16. First name: Catherine
+Last name: Ramirez
+City: Detroit
+Debt: 55012
+Weight: 76
 
-54. First name: Kimberly
-Last name: Stewart
-City: Charlotte
-Debt: 97162
-Weight: 62
+17. First name: Daniel
+Last name: Foster
+City: Madrid
+Debt: 35359
+Weight: 78
 
-55. First name: Debra
-Last name: Simmons
-City: Newark
-Debt: 82996
-Weight: 62
+18. First name: Jonathan
+Last name: Edwards
+City: Istanbul
+Debt: 33715
+Weight: 67
 
-56. First name: Melissa
-Last name: Roberts
-City: Sydney
-Debt: 94823
-Weight: 95
+19. First name: Charles
+Last name: Diaz
+City: Kuala Lumpur
+Debt: 11630
+Weight: 78
 
-57. First name: Ashley
-Last name: Bennett
-City: Berlin
-Debt: 83479
+20. First name: Amanda
+Last name: Torres
+City: Moscow
+Debt: 84372
+Weight: 69
+
+21. First name: Jacob
+Last name: Kelly
+City: Manchester
+Debt: 14190
+Weight: 100
+
+22. First name: Carol
+Last name: Foster
+City: Madrid
+Debt: 45075
+Weight: 59
+
+23. First name: Anna
+Last name: Walker
+City: Vancouver
+Debt: 71950
+Weight: 80
+
+24. First name: Brian
+Last name: Kelly
+City: Las Vegas
+Debt: 22196
+Weight: 76
+
+25. First name: Melissa
+Last name: Ramirez
+City: Orlando
+Debt: 54248
+Weight: 63
+
+26. First name: Anna
+Last name: Brooks
+City: Brussels
+Debt: 21251
+Weight: 78
+
+27. First name: Henry
+Last name: Adams
+City: Amsterdam
+Debt: 20722
+Weight: 71
+
+28. First name: Patrick
+Last name: Turner
+City: Beijing
+Debt: 30645
+Weight: 92
+
+29. First name: Emily
+Last name: Brown
+City: Philadelphia
+Debt: 42910
+Weight: 71
+
+30. First name: Susan
+Last name: Phillips
+City: Denver
+Debt: 90148
+Weight: 96
+
+31. First name: David
+Last name: Hayes
+City: Riverside
+Debt: 53270
+Weight: 89
+
+32. First name: Daniel
+Last name: Turner
+City: Amsterdam
+Debt: 89532
+Weight: 69
+
+33. First name: Patricia
+Last name: Gray
+City: Rotterdam
+Debt: 71205
 Weight: 72
 
-58. First name: Ryan
-Last name: Carter
+34. First name: Eric
+Last name: Taylor
 City: Tel Aviv
-Debt: 94010
-Weight: 67
+Debt: 79186
+Weight: 53
 
-59. First name: Emily
-Last name: Rogers
-City: Copenhagen
-Debt: 26730
-Weight: 95
-
-60. First name: Joshua
-Last name: Ortiz
-City: Honolulu
-Debt: 34213
-Weight: 81
-
-61. First name: Shirley
-Last name: Green
-City: Austin
-Debt: 20891
-Weight: 85
-
-62. First name: Gary
-Last name: Gonzalez
-City: Pittsburgh
-Debt: 78031
+35. First name: Raymond
+Last name: Bailey
+City: Las Vegas
+Debt: 39219
 Weight: 78
 
-63. First name: Linda
-Last name: Evans
-City: Hong Kong
-Debt: 59283
-Weight: 59
+36. First name: Patricia
+Last name: Lee
+City: Sacramento
+Debt: 58587
+Weight: 91
 
-64. First name: Patrick
-Last name: Rogers
-City: Philadelphia
-Debt: 26153
-Weight: 87
-
-65. First name: Daniel
-Last name: Hill
-City: Orlando
-Debt: 18126
-Weight: 51
-
-66. First name: Linda
-Last name: Howard
-City: Milan
-Debt: 42954
-Weight: 76
-
-67. First name: Janet
-Last name: Jenkins
-City: Copenhagen
-Debt: 39386
-Weight: 71
-
-68. First name: Benjamin
-Last name: Wright
-City: Beijing
-Debt: 39509
-Weight: 99
-
-69. First name: Anna
-Last name: Torres
-City: Kyoto
-Debt: 70467
-Weight: 85
-
-70. First name: Melissa
-Last name: Allen
-City: Paris
-Debt: 17759
-Weight: 82
-
-71. First name: Angela
-Last name: Turner
-City: Austin
-Debt: 89954
-Weight: 82
-
-72. First name: Jonathan
-Last name: Ross
-City: Singapore
-Debt: 78357
-Weight: 100
-
-73. First name: John
-Last name: Delgado
-City: Riverside
-Debt: 83666
-Weight: 59
-
-74. First name: Deborah
-Last name: Murphy
-City: Istanbul
-Debt: 46632
-Weight: 100
-
-75. First name: Lisa
-Last name: Ortega
-City: Mexico City
-Debt: 10092
-Weight: 99
-
-76. First name: Nicholas
-Last name: Foster
-City: San Francisco - San Jose
-Debt: 39494
-Weight: 97
-
-77. First name: Aaron
-Last name: Gonzalez
-City: Philadelphia
-Debt: 28980
-Weight: 56
-
-78. First name: Larry
-Last name: Green
-City: Manchester
-Debt: 15038
-Weight: 76
-
-79. First name: Carolyn
-Last name: Flores
-City: Honolulu
-Debt: 37883
-Weight: 64
-
-80. First name: Larry
-Last name: Peterson
-City: Abu Dhabi
-Debt: 41246
-Weight: 84
-
-81. First name: Shirley
-Last name: Price
-City: Milan
-Debt: 90869
-Weight: 81
-
-82. First name: Christopher
-Last name: Ward
-City: Minneapolis-St Paul
-Debt: 72011
-Weight: 71
-
-83. First name: Jonathan
-Last name: Wright
-City: Paris
-Debt: 44378
-Weight: 55
-
-84. First name: Kevin
-Last name: Simmons
-City: Kuala Lumpur
-Debt: 95596
-Weight: 56
-
-85. First name: Janet
-Last name: Rogers
-City: São Paulo
-Debt: 32495
-Weight: 51
-
-86. First name: Joseph
-Last name: Scott
-City: Amsterdam
-Debt: 45089
-Weight: 61
-
-87. First name: Scott
-Last name: Rogers
-City: London
-Debt: 15906
+37. First name: Benjamin
+Last name: Carter
+City: Moscow
+Debt: 68502
 Weight: 83
 
-88. First name: Laura
-Last name: Edwards
-City: Helsinki
-Debt: 71042
-Weight: 63
+38. First name: Laura
+Last name: Lopez
+City: Brisbane
+Debt: 23733
+Weight: 78
 
-89. First name: Gary
-Last name: Patterson
-City: Mumbai
-Debt: 90589
-Weight: 86
+39. First name: Catherine
+Last name: Simmons
+City: Dublin
+Debt: 82745
+Weight: 82
 
-90. First name: Shirley
-Last name: Green
-City: Santa Ana-Anaheim
-Debt: 50911
+40. First name: Rebecca
+Last name: Hayes
+City: Stuttgart
+Debt: 32774
+Weight: 96
+
+41. First name: Gary
+Last name: Morris
+City: Budapest
+Debt: 87069
 Weight: 75
 
-91. First name: Rachel
-Last name: Mitchell
-City: Raleigh-Durham
-Debt: 92023
-Weight: 94
-
-92. First name: Charles
-Last name: Perry
-City: Denver
-Debt: 86903
-Weight: 62
-
-93. First name: Rebecca
-Last name: Robinson
-City: Abu Dhabi
-Debt: 47500
-Weight: 77
-
-94. First name: Debra
+42. First name: Henry
 Last name: Butler
-City: Milan
-Debt: 88411
-Weight: 87
-
-95. First name: Kenneth
-Last name: Clark
-City: Melbourne
-Debt: 13803
-Weight: 94
-
-96. First name: Kenneth
-Last name: Russell
-City: Rotterdam
-Debt: 40323
+City: Frankfurt
+Debt: 86849
 Weight: 60
 
-97. First name: Helen
-Last name: Gonzalez
-City: Barcelona
-Debt: 86659
-Weight: 88
+43. First name: Shirley
+Last name: Bennett
+City: Minneapolis-St Paul
+Debt: 49650
+Weight: 51
 
-98. First name: Christine
-Last name: Mitchell
-City: Lyon
-Debt: 99251
-Weight: 61
+44. First name: Susan
+Last name: Diaz
+City: Raleigh-Durham
+Debt: 71337
+Weight: 87
 
-99. First name: Kimberly
-Last name: Sanchez
-City: Edinburgh
-Debt: 91598
-Weight: 61
+45. First name: Stephen
+Last name: Jones
+City: Orlando
+Debt: 15738
+Weight: 83
 
-100. First name: Frank
-Last name: Martin
-City: Vancouver
-Debt: 43774
-Weight: 55
-
-101. First name: Eric
-Last name: Sanders
-City: Atlanta
-Debt: 76146
-Weight: 85
-
-102. First name: Rebecca
+46. First name: Henry
 Last name: Thomas
-City: Brisbane
-Debt: 45337
-Weight: 99
+City: Tel Aviv
+Debt: 95470
+Weight: 100
 
-103. First name: Sharon
-Last name: Parker
-City: Bangkok
-Debt: 87062
-Weight: 93
-
-104. First name: Steven
-Last name: Martinez
-City: Melbourne
-Debt: 39201
-Weight: 81
-
-105. First name: Melissa
-Last name: Parker
-City: Honolulu
-Debt: 49085
-Weight: 67
-
-106. First name: James
-Last name: King
-City: Providence
-Debt: 18540
-Weight: 56
-
-107. First name: Timothy
-Last name: Ward
-City: Rotterdam
-Debt: 34635
+47. First name: Jessica
+Last name: Sanchez
+City: Las Vegas
+Debt: 69881
 Weight: 75
 
-108. First name: Angela
-Last name: Robinson
+48. First name: Jose
+Last name: Garcia
+City: Abu Dhabi
+Debt: 37434
+Weight: 52
+
+49. First name: Jeffrey
+Last name: Molina
+City: Abu Dhabi
+Debt: 36879
+Weight: 51
+
+50. First name: Angela
+Last name: King
+City: Cologne
+Debt: 39604
+Weight: 67
+
+51. First name: Sarah
+Last name: James
+City: Charlotte
+Debt: 56346
+Weight: 85
+
+52. First name: Samuel
+Last name: Miller
+City: São Paulo
+Debt: 34427
+Weight: 67
+
+53. First name: Nicole
+Last name: Turner
+City: Munich
+Debt: 27270
+Weight: 54
+
+54. First name: Robert
+Last name: Richardson
+City: Shanghai
+Debt: 70116
+Weight: 82
+
+55. First name: Larry
+Last name: King
+City: Providence
+Debt: 21954
+Weight: 62
+
+56. First name: David
+Last name: Allen
+City: Seattle
+Debt: 42709
+Weight: 92
+
+57. First name: Rebecca
+Last name: Morgan
+City: Miami
+Debt: 91267
+Weight: 98
+
+58. First name: Brandon
+Last name: Long
+City: Las Vegas
+Debt: 81023
+Weight: 70
+
+59. First name: Jacob
+Last name: Lopez
+City: Detroit
+Debt: 31870
+Weight: 82
+
+60. First name: William
+Last name: Mitchell
+City: Stockholm
+Debt: 96682
+Weight: 52
+
+61. First name: Larry
+Last name: Perry
+City: Lyon
+Debt: 89769
+Weight: 91
+
+62. First name: Michael
+Last name: Anderson
+City: Taipei
+Debt: 70314
+Weight: 88
+
+63. First name: Brian
+Last name: Taylor
+City: Moscow
+Debt: 61012
+Weight: 89
+
+64. First name: Jose
+Last name: Barnes
+City: Beijing
+Debt: 85878
+Weight: 74
+
+65. First name: Tyler
+Last name: Bennett
+City: Providence
+Debt: 80725
+Weight: 66
+
+66. First name: Adam
+Last name: Torres
+City: Mexico City
+Debt: 36050
+Weight: 63
+
+67. First name: Jessica
+Last name: Cook
+City: Athens
+Debt: 50894
+Weight: 94
+
+68. First name: Larry
+Last name: Alexander
+City: Brussels
+Debt: 51572
+Weight: 56
+
+69. First name: George
+Last name: Powell
+City: Edinburgh
+Debt: 29257
+Weight: 84
+
+70. First name: Shirley
+Last name: Edwards
+City: Austin
+Debt: 18617
+Weight: 74
+
+71. First name: Charles
+Last name: Rodriguez
+City: Kuala Lumpur
+Debt: 81066
+Weight: 74
+
+72. First name: Nicole
+Last name: Baker
+City: Minneapolis-St Paul
+Debt: 18821
+Weight: 62
+
+73. First name: Matthew
+Last name: Garcia
+City: San Francisco - San Jose
+Debt: 96556
+Weight: 77
+
+74. First name: Kimberly
+Last name: Davis
+City: San Antonio
+Debt: 32363
+Weight: 98
+
+75. First name: Adam
+Last name: Evans
+City: Abu Dhabi
+Debt: 46897
+Weight: 60
+
+76. First name: Nicholas
+Last name: Moore
+City: Montréal
+Debt: 39243
+Weight: 96
+
+77. First name: Nicole
+Last name: Edwards
+City: Budapest
+Debt: 53223
+Weight: 64
+
+78. First name: Katherine
+Last name: Perry
+City: Guangzhou
+Debt: 58563
+Weight: 53
+
+79. First name: Heather
+Last name: Turner
+City: Rome
+Debt: 90596
+Weight: 66
+
+80. First name: Andrew
+Last name: Taylor
+City: Houston
+Debt: 82460
+Weight: 80
+
+81. First name: Stephen
+Last name: Alexander
+City: Providence
+Debt: 36388
+Weight: 61
+
+82. First name: Jessica
+Last name: Hall
+City: Riverside
+Debt: 87865
+Weight: 100
+
+83. First name: Jennifer
+Last name: Phillips
+City: Mexico City
+Debt: 83189
+Weight: 83
+
+84. First name: Amy
+Last name: Taylor
+City: Athens
+Debt: 46151
+Weight: 89
+
+85. First name: Benjamin
+Last name: Griffin
+City: Los Angeles
+Debt: 54461
+Weight: 87
+
+86. First name: Jose
+Last name: Bryant
+City: Atlanta
+Debt: 72217
+Weight: 78
+
+87. First name: George
+Last name: Perry
+City: Detroit
+Debt: 93393
+Weight: 63
+
+88. First name: Jeffrey
+Last name: Stewart
+City: Stockholm
+Debt: 96253
+Weight: 70
+
+89. First name: Justin
+Last name: Gonzalez
+City: Miami
+Debt: 45218
+Weight: 97
+
+90. First name: Richard
+Last name: Morgan
+City: Abu Dhabi
+Debt: 49227
+Weight: 77
+
+91. First name: Sandra
+Last name: Wright
+City: Beijing
+Debt: 69986
+Weight: 69
+
+92. First name: Mark
+Last name: Reed
+City: Paris
+Debt: 85838
+Weight: 55
+
+93. First name: Julie
+Last name: Morgan
+City: Minneapolis-St Paul
+Debt: 22549
+Weight: 80
+
+94. First name: Aaron
+Last name: Washington
+City: Québec
+Debt: 40347
+Weight: 77
+
+95. First name: Ashley
+Last name: Flores
+City: Hamburg
+Debt: 79348
+Weight: 64
+
+96. First name: William
+Last name: Anderson
+City: Detroit
+Debt: 98007
+Weight: 80
+
+97. First name: Katherine
+Last name: Ortega
+City: Lyon
+Debt: 38040
+Weight: 77
+
+98. First name: Linda
+Last name: Peterson
 City: Buenos Aires
-Debt: 79475
-Weight: 93
+Debt: 62795
+Weight: 100
+
+99. First name: Rachel
+Last name: Cook
+City: Rotterdam
+Debt: 63292
+Weight: 60
+
+100. First name: Amy
+Last name: Rogers
+City: Fort Lauderdale
+Debt: 31913
+Weight: 82
+
+101. First name: Shirley
+Last name: Long
+City: Edinburgh
+Debt: 41361
+Weight: 61
+
+102. First name: Elizabeth
+Last name: Rivera
+City: Berlin
+Debt: 34382
+Weight: 69
+
+103. First name: Jerry
+Last name: Davis
+City: Beijing
+Debt: 59364
+Weight: 51
+
+104. First name: Linda
+Last name: Barnes
+City: Cologne
+Debt: 37595
+Weight: 88
+
+105. First name: Nicole
+Last name: Garcia
+City: Moscow
+Debt: 40160
+Weight: 70
+
+106. First name: Michelle
+Last name: Jones
+City: Calgary
+Debt: 97493
+Weight: 52
+
+107. First name: Stephen
+Last name: Patterson
+City: Lisbon
+Debt: 35778
+Weight: 74
+
+108. First name: Deborah
+Last name: Diaz
+City: Buenos Aires
+Debt: 43316
+Weight: 86
 

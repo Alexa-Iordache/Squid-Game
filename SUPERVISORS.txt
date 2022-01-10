@@ -1,63 +1,63 @@
-1. First name: Anthony
-Last name: Ramirez
-City: Sacramento
-Debt: 48765
-Weight: 73
-Mask form: triangle
-
-2. First name: Jose
-Last name: Phillips
-City: Melbourne
-Debt: 56801
-Weight: 83
-Mask form: circle
-
-3. First name: Aaron
+1. First name: Ruth
 Last name: Martin
-City: Toronto
-Debt: 87778
-Weight: 59
+City: Buenos Aires
+Debt: 23955
+Weight: 95
+Mask form: triangle
+
+2. First name: Victoria
+Last name: Mitchell
+City: Singapore
+Debt: 50853
+Weight: 77
 Mask form: circle
 
-4. First name: Gregory
-Last name: Hill
-City: Melbourne
-Debt: 48710
-Weight: 74
-Mask form: square
-
-5. First name: Emma
-Last name: Rodriguez
-City: Oakland
-Debt: 31302
-Weight: 87
-Mask form: triangle
-
-6. First name: Emma
-Last name: Rodriguez
-City: Oakland
-Debt: 31302
-Weight: 87
-Mask form: triangle
-
-7. First name: Dennis
-Last name: Miller
-City: Bangkok
-Debt: 13962
+3. First name: Patricia
+Last name: Murphy
+City: Newark
+Debt: 92800
 Weight: 92
 Mask form: circle
 
-8. First name: Anthony
-Last name: Ramirez
-City: Sacramento
-Debt: 48765
-Weight: 73
+4. First name: Timothy
+Last name: Lopez
+City: New York
+Debt: 67128
+Weight: 89
+Mask form: triangle
+
+5. First name: Victoria
+Last name: Mitchell
+City: Singapore
+Debt: 50853
+Weight: 77
 Mask form: square
 
-9. First name: Anthony
-Last name: Ramirez
-City: Sacramento
-Debt: 48765
-Weight: 73
+6. First name: Timothy
+Last name: Lopez
+City: New York
+Debt: 67128
+Weight: 89
+Mask form: circle
+
+7. First name: Patricia
+Last name: Murphy
+City: Newark
+Debt: 92800
+Weight: 92
+Mask form: triangle
+
+8. First name: Jose
+Last name: Thomas
+City: Busan
+Debt: 37104
+Weight: 60
+Mask form: square
+
+9. First name: Rachel
+Last name: Wilson
+City: Stuttgart
+Debt: 99119
+Weight: 99
 Mask form: square
 

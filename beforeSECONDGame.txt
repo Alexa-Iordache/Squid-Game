@@ -1,0 +1,56 @@
+ Echipa 1
+Jose Garcia 73
+Samuel Miller 99
+Patricia Gray 25
+Aaron Washington 21
+Lisa Hill 89
+Rachel Cook 9
+Henry Anderson 77
+Samuel Miller 27
+Julie Morgan 43
+Robert Richardson 79
+Daniel Turner 67
+Brian Kelly 13
+
+ Echipa 2
+Jose Thomas 51
+Henry Anderson 29
+David Allen 75
+Kimberly Davis 83
+Brian Kelly 41
+Eric Taylor 47
+Michael Anderson 7
+Brian Taylor 61
+Jose Bryant 85
+Susan Diaz 33
+Heather Turner 1
+Rebecca Hayes 59
+
+ Echipa 3
+Heather Turner 93
+Nicole Baker 69
+Anna Brooks 3
+Amanda Torres 95
+Jose Gutierrez 57
+Benjamin Griffin 19
+Jonathan Edwards 65
+Emily Brown 97
+Nicholas Moore 45
+Jason Brooks 31
+Jessica Sanchez 53
+Julie Morgan 63
+
+ Echipa 4
+Kimberly Davis 71
+Patrick Turner 81
+Jessica Cook 87
+Aaron Washington 23
+Sandra Wright 39
+Benjamin Bailey 49
+Jason Brooks 5
+Catherine Ramirez 17
+Amy Taylor 55
+Amy Hall 15
+Eric Taylor 91
+Anna Walker 37
+

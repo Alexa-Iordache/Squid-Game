@@ -1,120 +1,120 @@
-Jose Phillips Melbourne 56801 83 circle
-John White Santa Ana-Anaheim 57403 65 51
-Cynthia Collins Sydney 60138 66 17
-Jonathan Wright Paris 44378 55 79
-John White Santa Ana-Anaheim 57403 65 6
-Jonathan Wright Paris 44378 55 50
-Henry Clark Tokyo 13872 71 23
-Gregory Hill Melbourne 48710 74 33
-Patrick Rogers Philadelphia 26153 87 61
-Gary Gonzalez Pittsburgh 78031 78 39
-Kimberly Stewart Charlotte 97162 62 81
-Christopher Ward Minneapolis-St Paul 72011 71 37
+Victoria Mitchell Singapore 50853 77 circle
+Jason Brooks San Francisco - San Jose 36606 87 31
+Julie Morgan Minneapolis-St Paul 22549 80 63
+Amy Hall Milan 88278 68 38
+Angela King Cologne 39604 67 68
+Jessica Cook Athens 50894 94 62
+Ashley Flores Hamburg 79348 64 14
+Daniel Turner Amsterdam 89532 69 46
+Jose Thomas Busan 37104 60 40
+Nicholas Moore Montréal 39243 96 45
+Richard Morgan Abu Dhabi 49227 77 12
+Heather Turner Rome 90596 66 93
 
-Aaron Martin Toronto 87778 59 circle
-Robert Hayes San Antonio 92251 54 56
-Amanda Thompson Hong Kong 51142 53 57
-Aaron Mitchell Lyon 26714 89 83
-Carolyn Flores Honolulu 37883 64 97
-Aaron Gonzalez Philadelphia 28980 56 20
-Samantha Martin Düsseldorf 50520 85 74
-Kimberly Sanchez Edinburgh 91598 61 32
-Jose Adams Dubai 12801 68 62
-Patrick Rogers Philadelphia 26153 87 49
-Melissa Allen Paris 17759 82 92
-Linda Howard Milan 42954 76 95
+Patricia Murphy Newark 92800 92 circle
+Catherine Ramirez Detroit 55012 76 17
+Carol Foster Madrid 45075 59 30
+Jose Gutierrez Budapest 58283 100 57
+Timothy Lopez New York 67128 89 80
+Patrick Turner Beijing 30645 92 81
+Rachel Cook Rotterdam 63292 60 9
+Benjamin Bailey Frankfurt 39744 85 49
+Jeffrey Stewart Stockholm 96253 70 36
+Rebecca Hayes Stuttgart 32774 96 59
+Lisa Hill Nashville 92977 59 89
+Kimberly Davis San Antonio 32363 98 42
 
-Dennis Miller Bangkok 13962 92 circle
-Sarah Jenkins Berlin 43561 93 19
-Paul Rivera Kyoto 51885 63 77
-Larry Thomas Seattle 28523 71 15
-Larry Green Manchester 15038 76 9
-Emily Rogers Copenhagen 26730 95 94
-Michelle King Tel Aviv 44066 53 7
-Emily Rogers Copenhagen 26730 95 52
-John White Santa Ana-Anaheim 57403 65 29
-Thomas Bennett Sacramento 78447 53 76
-Mary Parker Riverside 85241 55 67
-Julie Watson The Hague 16525 92 36
-
-
-Anthony Ramirez Sacramento 48765 73 triangle
-Ruth Hall Miami 32133 85 11
-Stephen Phillips New York 27574 64 12
-Carolyn Flores Honolulu 37883 64 68
-Anthony Reed St Louis 11351 54 21
-Linda Howard Milan 42954 76 96
-Michelle King Tel Aviv 44066 53 1
-Debra Butler Milan 88411 87 25
-Matthew Cook Oakland 39711 90 78
-Steven Griffin Montréal 73374 66 75
-Robert Scott Berlin 30634 54 88
-Carol Anderson Portland 42228 66 28
-
-Emma Rodriguez Oakland 31302 87 triangle
-Michelle Griffin The Hague 85518 55 58
-Emma Rodriguez Oakland 31302 87 34
-Kimberly Allen Vienna 91167 92 42
-Joshua Ortiz Honolulu 34213 81 54
-Linda Evans Hong Kong 59283 59 27
-Linda Howard Milan 42954 76 30
-Janet Rogers São Paulo 32495 51 4
-Joseph Scott Amsterdam 45089 61 10
-Paul Rivera Kyoto 51885 63 84
-Amanda Martinez Melbourne 11585 82 41
-Laura Smith Dallas-Fort Worth 35236 75 44
-
-Emma Rodriguez Oakland 31302 87 triangle
-Linda Evans Hong Kong 59283 59 72
-Stephen Phillips New York 27574 64 55
-Robert Scott Berlin 30634 54 43
-Melissa Allen Paris 17759 82 26
-Linda Evans Hong Kong 59283 59 24
-Larry Green Manchester 15038 76 66
-Samantha Martin Düsseldorf 50520 85 46
-Thomas Bennett Sacramento 78447 53 31
-Matthew Anderson Toronto 57074 87 64
-Gregory Hill Melbourne 48710 74 70
-Jose Wright Oakland 53989 79 59
+Timothy Lopez New York 67128 89 circle
+Aaron Washington Québec 40347 77 23
+Eric Taylor Tel Aviv 79186 53 91
+Daniel Foster Madrid 35359 78 76
+Patricia Lee Sacramento 58587 91 35
+Heather Turner Rome 90596 66 1
+Richard Morgan Abu Dhabi 49227 77 48
+Susan Diaz Raleigh-Durham 71337 87 33
+Ruth Patterson São Paulo 49281 85 98
+Anna Walker Vancouver 71950 80 37
+Jessica Sanchez Las Vegas 69881 75 70
+Kimberly Davis San Antonio 32363 98 71
 
 
-Gregory Hill Melbourne 48710 74 square
-Kimberly Allen Vienna 91167 92 35
-Alexander Thomas São Paulo 64617 98 3
-Matthew Anderson Toronto 57074 87 53
-John Delgado Riverside 83666 59 69
-John White Santa Ana-Anaheim 57403 65 45
-Joshua Ortiz Honolulu 34213 81 91
-Deborah Murphy Istanbul 46632 100 8
-Christopher Carter Paris 31124 60 65
-Janet Jenkins Copenhagen 39386 71 13
-Christopher Ward Minneapolis-St Paul 72011 71 38
-Frank Campbell Detroit 31165 68 87
+Ruth Martin Buenos Aires 23955 95 triangle
+Brandon Long Las Vegas 81023 70 52
+Patricia Gray Rotterdam 71205 72 25
+Patricia Murphy Newark 92800 92 44
+Henry Adams Amsterdam 20722 71 86
+Linda Peterson Buenos Aires 62795 100 54
+Timothy Lopez New York 67128 89 10
+Sarah Molina Dubai 30451 77 20
+Jose Thomas Busan 37104 60 56
+David Allen Seattle 42709 92 64
+Patricia Gray Rotterdam 71205 72 8
+Stephen Jones Orlando 15738 83 78
 
-Anthony Ramirez Sacramento 48765 73 square
-Laura Smith Dallas-Fort Worth 35236 75 60
-Jose Phillips Melbourne 56801 83 89
-Melissa Roberts Sydney 94823 95 98
-Laura Edwards Helsinki 71042 63 99
-Shirley Price Milan 90869 81 48
-Ruth Hall Miami 32133 85 18
-Lisa Ortega Mexico City 10092 99 40
-Matthew Anderson Toronto 57074 87 5
-Joseph Scott Amsterdam 45089 61 93
-Laura Edwards Helsinki 71042 63 85
-Aaron Mitchell Lyon 26714 89 14
+Timothy Lopez New York 67128 89 triangle
+Eric Taylor Tel Aviv 79186 53 47
+Rebecca Hayes Stuttgart 32774 96 72
+Sarah James Charlotte 56346 85 94
+Sarah Molina Dubai 30451 77 84
+Michael Anderson Taipei 70314 88 7
+Jose Garcia Abu Dhabi 37434 52 73
+Kimberly Davis San Antonio 32363 98 83
+Amanda Torres Moscow 84372 69 96
+Aaron Washington Québec 40347 77 11
+Jacob Kelly Manchester 14190 100 66
+Adam Torres Mexico City 36050 63 2
 
-Anthony Ramirez Sacramento 48765 73 square
-Matthew Anderson Toronto 57074 87 80
-Cynthia Collins Sydney 60138 66 16
-Michelle Griffin The Hague 85518 55 2
-Debra Butler Milan 88411 87 47
-Laura Smith Dallas-Fort Worth 35236 75 73
-Samantha Martin Düsseldorf 50520 85 86
-Larry Green Manchester 15038 76 22
-Melissa Roberts Sydney 94823 95 63
-Nicholas Foster San Francisco - San Jose 39494 97 90
-Scott Rogers London 15906 83 82
-Christine Mitchell Lyon 99251 61 71
+Patricia Murphy Newark 92800 92 triangle
+Samuel Miller São Paulo 34427 67 99
+Jonathan Edwards Istanbul 33715 67 65
+Amy Hall Milan 88278 68 15
+Brian Taylor Moscow 61012 89 90
+Brian Kelly Las Vegas 22196 76 34
+Benjamin Griffin Los Angeles 54461 87 19
+Henry Anderson Oslo 66050 59 77
+Henry Anderson Oslo 66050 59 29
+Aaron Washington Québec 40347 77 21
+Amanda Torres Moscow 84372 69 95
+Stephen Jones Orlando 15738 83 6
+
+
+Victoria Mitchell Singapore 50853 77 square
+Larry Alexander Brussels 51572 56 92
+Robert Richardson Shanghai 70116 82 79
+Jeffrey Molina Abu Dhabi 36879 51 4
+Raymond Bailey Las Vegas 39219 78 18
+David Allen Seattle 42709 92 75
+Samuel Miller São Paulo 34427 67 27
+Patricia Murphy Newark 92800 92 74
+Jason Brooks San Francisco - San Jose 36606 87 5
+Amy Taylor Athens 46151 89 55
+Amanda Torres Moscow 84372 69 88
+Julie Morgan Minneapolis-St Paul 22549 80 24
+
+Jose Thomas Busan 37104 60 square
+Jose Thomas Busan 37104 60 58
+Brian Kelly Las Vegas 22196 76 41
+Julie Morgan Minneapolis-St Paul 22549 80 43
+Emily Brown Philadelphia 42910 71 97
+Sandra Wright Beijing 69986 69 39
+Jose Barnes Beijing 85878 74 16
+Jose Bryant Atlanta 72217 78 85
+Brian Taylor Moscow 61012 89 61
+George Powell Edinburgh 29257 84 22
+Sarah James Charlotte 56346 85 50
+Katherine Perry Guangzhou 58563 53 82
+
+Rachel Wilson Stuttgart 99119 99 square
+Anna Brooks Brussels 21251 78 3
+Jacob Lopez Detroit 31870 82 26
+Brian Kelly Las Vegas 22196 76 13
+Samuel Miller São Paulo 34427 67 32
+Nicole Baker Minneapolis-St Paul 18821 62 69
+Catherine Ramirez Detroit 55012 76 28
+Jose Thomas Busan 37104 60 51
+Jessica Sanchez Las Vegas 69881 75 53
+Jessica Cook Athens 50894 94 87
+Daniel Turner Amsterdam 89532 69 67
+Charles Rodriguez Kuala Lumpur 81066 74 60
 
 
