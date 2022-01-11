@@ -1,7 +1,20 @@
-Tyler Nguyen 99 1
-Janet Bryant 85 2
-Carolyn Russell 67 2
-Richard Thomas 59 2
-Eric Watson 47 2
-Laura Lee 17 2
-Sharon Martin 15 1
+Sharon Watson 63 1
+Frank Wright 57 2
+Patrick Mitchell 45 1
+Victoria Perry 35 2
+Brian Bennett 27 1
+Adam Edwards 19 2
+Brian Bennett 17 2
+
+
+Frank Wright 57 3
+Victoria Perry 35 2
+Adam Edwards 19 3
+Brian Bennett 17 1
+
+
+Frank Wright 57 1
+Adam Edwards 19 2
+Brian Bennett 17 3
+
+

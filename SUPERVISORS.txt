@@ -1,63 +1,63 @@
-1. First name: Richard
-Last name: Thomas
-City: London
-Debt: 24577
-Weight: 96
+1. First name: Janet
+Last name: Hill
+City: Istanbul
+Debt: 97666
+Weight: 75
 Mask form: circle
 
-2. First name: Anna
-Last name: Lee
-City: Providence
-Debt: 19891
+2. First name: Brian
+Last name: Bennett
+City: Pittsburgh
+Debt: 63060
+Weight: 98
+Mask form: triangle
+
+3. First name: Brian
+Last name: Bennett
+City: Pittsburgh
+Debt: 63060
+Weight: 98
+Mask form: circle
+
+4. First name: Janet
+Last name: Hill
+City: Istanbul
+Debt: 97666
+Weight: 75
+Mask form: square
+
+5. First name: Sharon
+Last name: Jackson
+City: Seattle
+Debt: 71166
 Weight: 83
 Mask form: square
 
-3. First name: Kimberly
+6. First name: Brian
+Last name: Bennett
+City: Pittsburgh
+Debt: 63060
+Weight: 98
+Mask form: triangle
+
+7. First name: Janet
+Last name: Hill
+City: Istanbul
+Debt: 97666
+Weight: 75
+Mask form: square
+
+8. First name: Melissa
 Last name: Molina
-City: Sacramento
-Debt: 14204
+City: Boston
+Debt: 66614
 Weight: 67
 Mask form: circle
 
-4. First name: Eric
-Last name: Watson
-City: Paris
-Debt: 13440
-Weight: 61
-Mask form: triangle
-
-5. First name: Jacob
-Last name: Delgado
-City: Brussels
-Debt: 69311
-Weight: 63
-Mask form: circle
-
-6. First name: Richard
-Last name: Thomas
-City: London
-Debt: 24577
-Weight: 96
-Mask form: triangle
-
-7. First name: Anna
-Last name: Lee
-City: Providence
-Debt: 19891
+9. First name: Jeffrey
+Last name: Griffin
+City: Houston
+Debt: 45640
 Weight: 83
 Mask form: triangle
-
-8. First name: Jacob
-Last name: Delgado
-City: Brussels
-Debt: 69311
-Weight: 63
-Mask form: square
-
-9. First name: Jacob
-Last name: Delgado
-City: Brussels
-Debt: 69311
-Weight: 63
-Mask form: square
 
