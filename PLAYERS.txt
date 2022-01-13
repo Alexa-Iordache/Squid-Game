@@ -1,693 +1,693 @@
-1. First name: Nancy
-Last name: Wilson
-City: Pittsburgh
-Debt: 61504
-Weight: 89
+1. First name: Jonathan
+Last name: Patterson
+City: Portland
+Debt: 65289
+Weight: 60
 Game number: 1
 
-2. First name: Sandra
-Last name: Coleman
-City: Seoul
-Debt: 51122
-Weight: 77
+2. First name: Adam
+Last name: Rivera
+City: Oakland
+Debt: 56366
+Weight: 96
 Game number: 2
 
-3. First name: Ashley
-Last name: Hill
-City: Providence
-Debt: 41879
-Weight: 60
+3. First name: Raymond
+Last name: Clark
+City: Shanghai
+Debt: 71778
+Weight: 70
 Game number: 3
 
-4. First name: Melissa
-Last name: Ramirez
-City: Calgary
-Debt: 16781
-Weight: 89
+4. First name: Barbara
+Last name: Gonzalez
+City: Los Angeles
+Debt: 56274
+Weight: 62
 Game number: 4
 
-5. First name: Jeffrey
-Last name: Moreno
-City: Tokyo
-Debt: 46640
-Weight: 98
+5. First name: Catherine
+Last name: Ramirez
+City: Beijing
+Debt: 13433
+Weight: 65
 Game number: 5
 
-6. First name: George
-Last name: Gonzales
-City: Lisbon
-Debt: 21803
-Weight: 93
+6. First name: Pamela
+Last name: Adams
+City: Vancouver
+Debt: 41206
+Weight: 53
 Game number: 6
 
-7. First name: Brandon
-Last name: Henderson
-City: Munich
-Debt: 46482
-Weight: 98
+7. First name: Samantha
+Last name: Cook
+City: London
+Debt: 90271
+Weight: 57
 Game number: 7
 
-8. First name: Jerry
-Last name: Nelson
+8. First name: Emily
+Last name: Evans
 City: Edinburgh
-Debt: 39108
-Weight: 70
+Debt: 13303
+Weight: 72
 Game number: 8
 
-9. First name: Linda
-Last name: Evans
-City: Dallas-Fort Worth
-Debt: 37274
-Weight: 67
+9. First name: Nancy
+Last name: Washington
+City: Detroit
+Debt: 69111
+Weight: 81
 Game number: 9
 
-10. First name: Alexander
-Last name: James
-City: Manchester
-Debt: 87374
-Weight: 52
+10. First name: Amy
+Last name: Gutierrez
+City: Madrid
+Debt: 52578
+Weight: 58
 Game number: 10
 
-11. First name: Margaret
-Last name: Miller
-City: Moscow
-Debt: 23885
-Weight: 87
+11. First name: Patricia
+Last name: Adams
+City: Helsinki
+Debt: 13758
+Weight: 76
 Game number: 11
 
-12. First name: Helen
-Last name: Stewart
-City: Tokyo
-Debt: 60708
-Weight: 92
+12. First name: Kevin
+Last name: Gonzalez
+City: Washington DC
+Debt: 90146
+Weight: 71
 Game number: 12
 
-13. First name: Ashley
-Last name: Lewis
-City: Hong Kong
-Debt: 97210
-Weight: 81
+13. First name: Shirley
+Last name: Johnson
+City: Buenos Aires
+Debt: 27232
+Weight: 66
 Game number: 13
 
-14. First name: Julie
-Last name: Robinson
-City: Philadelphia
-Debt: 89717
-Weight: 60
+14. First name: Justin
+Last name: Jenkins
+City: Buenos Aires
+Debt: 25401
+Weight: 89
 Game number: 14
 
-15. First name: Victoria
-Last name: Peterson
-City: Kyoto
-Debt: 98321
-Weight: 77
+15. First name: Catherine
+Last name: Gray
+City: Madrid
+Debt: 40151
+Weight: 89
 Game number: 15
 
-16. First name: Scott
-Last name: Clark
-City: Houston
-Debt: 34108
-Weight: 79
+16. First name: Ruth
+Last name: Ramirez
+City: Mumbai
+Debt: 61182
+Weight: 87
 Game number: 16
 
-17. First name: Joseph
-Last name: Moore
-City: Buenos Aires
-Debt: 75661
-Weight: 67
+17. First name: Diane
+Last name: Campbell
+City: Busan
+Debt: 66718
+Weight: 65
 Game number: 17
 
-18. First name: Debra
-Last name: Moreno
-City: Melbourne
-Debt: 21872
-Weight: 94
+18. First name: Adam
+Last name: Sanchez
+City: Raleigh-Durham
+Debt: 98800
+Weight: 86
 Game number: 18
 
-19. First name: Ryan
-Last name: Miller
-City: Chicago
-Debt: 80723
+19. First name: Cynthia
+Last name: Anderson
+City: Milan
+Debt: 10305
 Weight: 58
 Game number: 19
 
-20. First name: Heather
-Last name: Harris
-City: Nashville
-Debt: 40905
-Weight: 91
+20. First name: Christopher
+Last name: Simmons
+City: Amsterdam
+Debt: 91704
+Weight: 52
 Game number: 20
 
-21. First name: Brian
-Last name: Hill
-City: Vancouver
-Debt: 12604
-Weight: 79
+21. First name: Benjamin
+Last name: Barnes
+City: Seoul
+Debt: 11714
+Weight: 69
 Game number: 21
 
-22. First name: Laura
-Last name: Hill
-City: Philadelphia
-Debt: 43072
-Weight: 70
+22. First name: Julie
+Last name: Butler
+City: Dublin
+Debt: 17765
+Weight: 96
 Game number: 22
 
-23. First name: William
-Last name: Adams
-City: Buenos Aires
-Debt: 46101
-Weight: 85
+23. First name: Jessica
+Last name: Moreno
+City: Dubai
+Debt: 22002
+Weight: 84
 Game number: 23
 
-24. First name: Debra
-Last name: Molina
-City: Vienna
-Debt: 51329
-Weight: 97
+24. First name: Barbara
+Last name: Miller
+City: Lisbon
+Debt: 50708
+Weight: 95
 Game number: 24
 
-25. First name: Rachel
-Last name: Rogers
+25. First name: Dennis
+Last name: Murphy
 City: London
-Debt: 75611
-Weight: 86
+Debt: 70226
+Weight: 93
 Game number: 25
 
-26. First name: Katherine
-Last name: Rogers
-City: Oakland
-Debt: 32710
-Weight: 79
+26. First name: Janet
+Last name: Hayes
+City: Minneapolis-St Paul
+Debt: 38122
+Weight: 60
 Game number: 26
 
-27. First name: Jose
-Last name: Rodriguez
-City: Dublin
-Debt: 71019
-Weight: 81
+27. First name: Anthony
+Last name: Campbell
+City: Hamburg
+Debt: 79867
+Weight: 65
 Game number: 27
 
-28. First name: Timothy
-Last name: Alexander
-City: Taipei
-Debt: 36806
+28. First name: Larry
+Last name: Hall
+City: Beijing
+Debt: 27848
 Weight: 51
 Game number: 28
 
-29. First name: Andrew
-Last name: Moore
-City: Cologne
-Debt: 66128
-Weight: 100
+29. First name: Tyler
+Last name: Sanchez
+City: Shenzhen
+Debt: 33522
+Weight: 94
 Game number: 29
 
-30. First name: Nancy
-Last name: Williams
-City: Montréal
-Debt: 86220
-Weight: 67
+30. First name: Jason
+Last name: Rogers
+City: Amsterdam
+Debt: 98870
+Weight: 63
 Game number: 30
 
-31. First name: Susan
-Last name: Hernandez
-City: Fort Lauderdale
-Debt: 44174
-Weight: 64
+31. First name: Laura
+Last name: Rodriguez
+City: Montréal
+Debt: 76800
+Weight: 67
 Game number: 31
 
-32. First name: Ashley
-Last name: Howard
-City: Guangzhou
-Debt: 25568
-Weight: 90
+32. First name: Cynthia
+Last name: Lee
+City: Moscow
+Debt: 67193
+Weight: 91
 Game number: 32
 
-33. First name: James
-Last name: Cook
-City: Kuala Lumpur
-Debt: 94378
-Weight: 77
+33. First name: David
+Last name: Washington
+City: Rome
+Debt: 50316
+Weight: 52
 Game number: 33
 
-34. First name: Sarah
-Last name: Hughes
-City: Osaka
-Debt: 11317
-Weight: 83
+34. First name: Joseph
+Last name: Green
+City: Melbourne
+Debt: 31627
+Weight: 50
 Game number: 34
 
-35. First name: Thomas
-Last name: Baker
-City: Houston
-Debt: 87371
-Weight: 79
+35. First name: Kathleen
+Last name: Wright
+City: Shenzhen
+Debt: 58220
+Weight: 98
 Game number: 35
 
-36. First name: Angela
-Last name: Rodriguez
-City: Singapore
-Debt: 71402
-Weight: 97
+36. First name: Jeffrey
+Last name: Nelson
+City: Dublin
+Debt: 64620
+Weight: 57
 Game number: 36
 
-37. First name: Deborah
-Last name: Roberts
-City: Beijing
-Debt: 46036
-Weight: 54
+37. First name: Larry
+Last name: Nguyen
+City: Seoul
+Debt: 43485
+Weight: 85
 Game number: 37
 
-38. First name: Jeffrey
-Last name: Jackson
-City: San Francisco - San Jose
-Debt: 25666
-Weight: 82
+38. First name: Scott
+Last name: Phillips
+City: Lyon
+Debt: 68911
+Weight: 57
 Game number: 38
 
-39. First name: Steven
-Last name: Rodriguez
+39. First name: Henry
+Last name: Russell
 City: Charlotte
-Debt: 39284
-Weight: 60
+Debt: 89937
+Weight: 63
 Game number: 39
 
-40. First name: Samantha
-Last name: Perez
-City: Oslo
-Debt: 22718
-Weight: 80
+40. First name: Cynthia
+Last name: Evans
+City: Minneapolis-St Paul
+Debt: 95260
+Weight: 69
 Game number: 40
 
-41. First name: Sarah
-Last name: Baker
-City: Calgary
-Debt: 79833
-Weight: 56
+41. First name: Matthew
+Last name: Watson
+City: Québec
+Debt: 62292
+Weight: 77
 Game number: 41
 
-42. First name: Anthony
-Last name: Martin
-City: Detroit
-Debt: 61304
-Weight: 94
+42. First name: Edward
+Last name: Campbell
+City: Atlanta
+Debt: 52505
+Weight: 95
 Game number: 42
 
-43. First name: Kathleen
-Last name: Price
-City: San Antonio
-Debt: 33751
-Weight: 69
+43. First name: Helen
+Last name: Jenkins
+City: Kuala Lumpur
+Debt: 81574
+Weight: 90
 Game number: 43
 
-44. First name: Justin
-Last name: Morgan
-City: Stuttgart
-Debt: 81324
-Weight: 88
+44. First name: Eric
+Last name: Baker
+City: Atlanta
+Debt: 37262
+Weight: 94
 Game number: 44
 
-45. First name: Amy
-Last name: Diaz
-City: Oakland
-Debt: 99617
-Weight: 93
+45. First name: Brenda
+Last name: Edwards
+City: Osaka
+Debt: 78677
+Weight: 82
 Game number: 45
 
-46. First name: Patrick
-Last name: Perez
-City: Sydney
-Debt: 87505
-Weight: 80
+46. First name: Carolyn
+Last name: Howard
+City: Boston
+Debt: 18108
+Weight: 84
 Game number: 46
 
 47. First name: Jessica
-Last name: Martinez
-City: Lisbon
-Debt: 45899
-Weight: 94
+Last name: Hughes
+City: Prague
+Debt: 39154
+Weight: 72
 Game number: 47
 
-48. First name: Andrew
-Last name: Coleman
-City: Cologne
-Debt: 37275
-Weight: 59
+48. First name: Angela
+Last name: Bennett
+City: Singapore
+Debt: 86881
+Weight: 58
 Game number: 48
 
-49. First name: Rachel
-Last name: Evans
-City: Los Angeles
-Debt: 56391
-Weight: 81
+49. First name: Scott
+Last name: Allen
+City: Melbourne
+Debt: 48542
+Weight: 86
 Game number: 49
 
-50. First name: Michelle
-Last name: Evans
-City: Québec
-Debt: 95288
-Weight: 83
+50. First name: Nicholas
+Last name: Ortega
+City: Vienna
+Debt: 19302
+Weight: 80
 Game number: 50
 
-51. First name: Jerry
-Last name: Young
-City: Cologne
-Debt: 24850
-Weight: 83
+51. First name: Carolyn
+Last name: Baker
+City: London
+Debt: 89082
+Weight: 73
 Game number: 51
 
-52. First name: Catherine
-Last name: Gutierrez
-City: Seattle
-Debt: 21269
-Weight: 70
+52. First name: Ashley
+Last name: Jackson
+City: London
+Debt: 18804
+Weight: 87
 Game number: 52
 
-53. First name: Elizabeth
-Last name: Powell
-City: Pittsburgh
-Debt: 54445
-Weight: 69
+53. First name: Larry
+Last name: Morris
+City: Dublin
+Debt: 67680
+Weight: 66
 Game number: 53
 
-54. First name: Aaron
-Last name: Alexander
-City: San Diego
-Debt: 78788
-Weight: 70
+54. First name: Jessica
+Last name: Stewart
+City: Mexico City
+Debt: 38234
+Weight: 82
 Game number: 54
 
-55. First name: Amanda
-Last name: King
-City: Portland
-Debt: 43479
-Weight: 66
+55. First name: Larry
+Last name: Roberts
+City: Prague
+Debt: 54706
+Weight: 58
 Game number: 55
 
-56. First name: Jason
-Last name: Foster
+56. First name: Sharon
+Last name: Harris
 City: Detroit
-Debt: 97910
+Debt: 31755
 Weight: 84
 Game number: 56
 
-57. First name: Ronald
-Last name: Ross
-City: Kyoto
-Debt: 43397
-Weight: 92
+57. First name: Dorothy
+Last name: Hernandez
+City: Washington DC
+Debt: 54605
+Weight: 99
 Game number: 57
 
-58. First name: Steven
-Last name: Kelly
-City: Seoul
-Debt: 86332
-Weight: 52
+58. First name: Deborah
+Last name: Adams
+City: Bangkok
+Debt: 72590
+Weight: 68
 Game number: 58
 
-59. First name: Kathleen
-Last name: Perry
-City: Athens
-Debt: 18683
-Weight: 75
+59. First name: Ruth
+Last name: Molina
+City: Rotterdam
+Debt: 99369
+Weight: 50
 Game number: 59
 
-60. First name: Brandon
-Last name: Sanchez
-City: Milan
-Debt: 13562
-Weight: 59
+60. First name: Stephanie
+Last name: King
+City: Prague
+Debt: 20439
+Weight: 83
 Game number: 60
 
-61. First name: Margaret
-Last name: Stewart
-City: Portland
-Debt: 63692
-Weight: 89
+61. First name: Ashley
+Last name: Sanders
+City: Osaka
+Debt: 43446
+Weight: 53
 Game number: 61
 
 62. First name: Amy
-Last name: Rivera
-City: Stuttgart
-Debt: 98451
-Weight: 58
+Last name: Collins
+City: Lyon
+Debt: 36986
+Weight: 72
 Game number: 62
 
-63. First name: Sarah
-Last name: Clark
-City: Detroit
-Debt: 31118
-Weight: 82
+63. First name: Thomas
+Last name: Gonzalez
+City: Stockholm
+Debt: 66842
+Weight: 91
 Game number: 63
 
-64. First name: Donna
-Last name: Kelly
-City: Portland
-Debt: 95217
-Weight: 70
+64. First name: Mark
+Last name: Cook
+City: Toronto
+Debt: 96785
+Weight: 86
 Game number: 64
 
-65. First name: Christine
-Last name: Lopez
-City: Chicago
-Debt: 36019
-Weight: 59
+65. First name: Anthony
+Last name: Edwards
+City: Vienna
+Debt: 82575
+Weight: 75
 Game number: 65
 
-66. First name: Joseph
-Last name: Young
-City: Dublin
-Debt: 60890
-Weight: 59
+66. First name: Lisa
+Last name: Gonzales
+City: Kyoto
+Debt: 43074
+Weight: 92
 Game number: 66
 
-67. First name: Nancy
-Last name: Wright
-City: St Louis
-Debt: 62992
-Weight: 59
+67. First name: Michelle
+Last name: Richardson
+City: Toronto
+Debt: 65807
+Weight: 97
 Game number: 67
 
-68. First name: Matthew
-Last name: Johnson
-City: Oakland
-Debt: 30102
-Weight: 63
+68. First name: Alexander
+Last name: Powell
+City: Paris
+Debt: 90856
+Weight: 56
 Game number: 68
 
-69. First name: Thomas
-Last name: Stewart
-City: Vancouver
-Debt: 78256
-Weight: 61
+69. First name: Elizabeth
+Last name: Rodriguez
+City: Cologne
+Debt: 77437
+Weight: 66
 Game number: 69
 
-70. First name: Eric
-Last name: Stewart
-City: Detroit
-Debt: 43278
-Weight: 81
+70. First name: Ronald
+Last name: Gutierrez
+City: London
+Debt: 68486
+Weight: 100
 Game number: 70
 
-71. First name: William
-Last name: Hernandez
-City: Guangzhou
-Debt: 11055
-Weight: 77
+71. First name: Victoria
+Last name: Alexander
+City: Rotterdam
+Debt: 57375
+Weight: 82
 Game number: 71
 
-72. First name: Heather
-Last name: Parker
-City: Orlando
-Debt: 19600
-Weight: 87
+72. First name: Katherine
+Last name: Cook
+City: Portland
+Debt: 24586
+Weight: 95
 Game number: 72
 
-73. First name: Victoria
-Last name: Richardson
-City: Montréal
-Debt: 26592
-Weight: 66
+73. First name: Sandra
+Last name: Watson
+City: Paris
+Debt: 64734
+Weight: 50
 Game number: 73
 
-74. First name: Angela
-Last name: Richardson
-City: Melbourne
-Debt: 69030
-Weight: 88
+74. First name: Anna
+Last name: Molina
+City: Singapore
+Debt: 43277
+Weight: 91
 Game number: 74
 
-75. First name: Joseph
-Last name: James
-City: Tel Aviv
-Debt: 38356
-Weight: 66
+75. First name: Victoria
+Last name: Bell
+City: Fort Lauderdale
+Debt: 32537
+Weight: 55
 Game number: 75
 
-76. First name: Carol
-Last name: Watson
-City: Miami
-Debt: 63399
+76. First name: Ronald
+Last name: Howard
+City: Calgary
+Debt: 46112
 Weight: 89
 Game number: 76
 
-77. First name: Thomas
-Last name: Long
-City: Buenos Aires
-Debt: 21832
-Weight: 80
+77. First name: Jennifer
+Last name: Watson
+City: Providence
+Debt: 99135
+Weight: 96
 Game number: 77
 
-78. First name: Larry
-Last name: Morgan
-City: Amsterdam
-Debt: 16637
+78. First name: Gregory
+Last name: Thomas
+City: San Diego
+Debt: 53325
 Weight: 93
 Game number: 78
 
-79. First name: Julie
-Last name: Jones
-City: Rotterdam
-Debt: 15841
-Weight: 62
+79. First name: Linda
+Last name: Martin
+City: Newark
+Debt: 37865
+Weight: 68
 Game number: 79
 
-80. First name: Kimberly
-Last name: Lewis
-City: The Hague
-Debt: 38331
-Weight: 75
+80. First name: Sharon
+Last name: Wilson
+City: Osaka
+Debt: 92030
+Weight: 87
 Game number: 80
 
-81. First name: James
-Last name: Hall
-City: Dallas-Fort Worth
-Debt: 85553
-Weight: 95
+81. First name: Gregory
+Last name: Hughes
+City: Kansas City
+Debt: 64846
+Weight: 73
 Game number: 81
 
-82. First name: David
-Last name: Lewis
-City: Chicago
-Debt: 90961
-Weight: 91
+82. First name: Kathleen
+Last name: Kelly
+City: Tokyo
+Debt: 89303
+Weight: 50
 Game number: 82
 
-83. First name: Adam
-Last name: Patterson
-City: Beijing
-Debt: 41613
-Weight: 67
+83. First name: Donna
+Last name: Molina
+City: Detroit
+Debt: 79565
+Weight: 94
 Game number: 83
 
-84. First name: Larry
-Last name: Turner
-City: Shanghai
-Debt: 87920
-Weight: 98
+84. First name: Andrew
+Last name: Campbell
+City: Mexico City
+Debt: 63795
+Weight: 95
 Game number: 84
 
-85. First name: Thomas
-Last name: Russell
-City: Dublin
-Debt: 26595
-Weight: 78
+85. First name: Heather
+Last name: Howard
+City: Singapore
+Debt: 55552
+Weight: 71
 Game number: 85
 
-86. First name: Karen
-Last name: Ward
-City: New York
-Debt: 62812
-Weight: 58
+86. First name: Jerry
+Last name: Molina
+City: Orlando
+Debt: 21360
+Weight: 59
 Game number: 86
 
-87. First name: Edward
-Last name: Bailey
-City: The Hague
-Debt: 24841
-Weight: 74
+87. First name: Thomas
+Last name: Allen
+City: Montréal
+Debt: 15224
+Weight: 90
 Game number: 87
 
-88. First name: Nicholas
-Last name: Cooper
-City: Rome
-Debt: 26413
-Weight: 81
+88. First name: Angela
+Last name: King
+City: Abu Dhabi
+Debt: 92022
+Weight: 97
 Game number: 88
 
-89. First name: Justin
-Last name: Ortiz
-City: Kyoto
-Debt: 28489
-Weight: 62
+89. First name: Mark
+Last name: Lewis
+City: Dallas-Fort Worth
+Debt: 74503
+Weight: 66
 Game number: 89
 
-90. First name: Michael
-Last name: Griffin
-City: Shenzhen
-Debt: 60038
-Weight: 91
+90. First name: Angela
+Last name: Williams
+City: Vienna
+Debt: 69130
+Weight: 72
 Game number: 90
 
-91. First name: Dennis
-Last name: Torres
-City: Brussels
-Debt: 58473
-Weight: 76
+91. First name: Deborah
+Last name: Simmons
+City: Los Angeles
+Debt: 54436
+Weight: 81
 Game number: 91
 
 92. First name: Jennifer
-Last name: Bennett
-City: Düsseldorf
-Debt: 66784
-Weight: 64
+Last name: Jackson
+City: Seoul
+Debt: 80197
+Weight: 82
 Game number: 92
 
-93. First name: Rebecca
-Last name: Rivera
-City: Orlando
-Debt: 51775
-Weight: 54
+93. First name: Thomas
+Last name: Russell
+City: Moscow
+Debt: 74869
+Weight: 52
 Game number: 93
 
-94. First name: Melissa
-Last name: Ortiz
-City: Sydney
-Debt: 58103
-Weight: 66
+94. First name: Laura
+Last name: Perez
+City: Amsterdam
+Debt: 58568
+Weight: 80
 Game number: 94
 
-95. First name: Shirley
-Last name: Price
-City: Abu Dhabi
-Debt: 64565
-Weight: 70
+95. First name: Dennis
+Last name: Howard
+City: San Antonio
+Debt: 60345
+Weight: 96
 Game number: 95
 
-96. First name: Michelle
-Last name: Torres
-City: Melbourne
-Debt: 64348
-Weight: 91
+96. First name: Jose
+Last name: Henderson
+City: Chicago
+Debt: 80865
+Weight: 84
 Game number: 96
 
-97. First name: Paul
-Last name: White
-City: Honolulu
-Debt: 73610
-Weight: 89
+97. First name: Victoria
+Last name: Phillips
+City: Atlanta
+Debt: 91245
+Weight: 54
 Game number: 97
 
-98. First name: Benjamin
-Last name: Rodriguez
-City: Athens
-Debt: 90117
-Weight: 51
+98. First name: Stephen
+Last name: Sanchez
+City: Sacramento
+Debt: 28769
+Weight: 58
 Game number: 98
 
-99. First name: Sandra
-Last name: Evans
-City: Abu Dhabi
-Debt: 26556
-Weight: 53
+99. First name: Catherine
+Last name: Coleman
+City: Oakland
+Debt: 87264
+Weight: 83
 Game number: 99
 
