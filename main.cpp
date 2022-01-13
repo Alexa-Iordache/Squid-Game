@@ -9,6 +9,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <fstream>
+#include <vector>
+#include <string>
+#include <string.h>
+#include <stdio.h>
 
 using namespace std;
 
@@ -23,9 +27,12 @@ private:
     string city;
     double debt; //datorie
     int weight;
+    int isTaken;
 
 public:
     void setPerson(string last_name, string first_name, string city, double debt, int weight);
+
+    void setIsTaken(int isTaken);
 
     //getters
     string getLastName();
@@ -33,6 +40,7 @@ public:
     string getCity();
     double getDebt();
     int getWeight();
+    int getIsTaken();
 
     void displayPerson();
     void displayInFile(fstream &file, int i, int nr, int nr2, int nr3, double debt, int weight, string firstNamesArray[], string lastNamesArray[], string citiesArray[]);
@@ -45,6 +53,11 @@ void PERSON::setPerson(string last_name, string first_name, string city, double 
     this->city = city;
     this->debt = debt;
     this->weight = weight;
+}
+
+void PERSON::setIsTaken(int isTaken)
+{
+    this->isTaken = isTaken;
 }
 
 string PERSON::getLastName()
@@ -70,6 +83,11 @@ double PERSON::getDebt()
 int PERSON::getWeight()
 {
     return this->weight;
+}
+
+int PERSON::getIsTaken()
+{
+    return this->isTaken;
 }
 
 void PERSON::displayPerson()
@@ -178,7 +196,7 @@ void PLAYER::displayPlayer()
 // function to display players in file
 void displayInFile(fstream &file, int i, int nr, PERSON persons[], PLAYER players[])
 {
-    file << "First name: " << persons[nr].getLastName() << endl;
+    file << i << ". First name: " << persons[nr].getLastName() << endl;
     file << "Last name: " << persons[nr].getFirstName() << endl;
     file << "City: " << persons[nr].getCity() << endl;
     file << "Debt: " << persons[nr].getDebt() << endl;
@@ -194,10 +212,13 @@ class SUPERVISOR : public PERSON
 {
 private:
     string mask_form;
+    double finalSum;
 
 public:
     void setMaskForm(string mask_form);
+    void setFinalSum(double finalSum);
     string getMaskForm();
+    int getFinalSum();
     void displaySupervisor();
     void displayInFile(fstream &file, int i, int nr, PERSON persons[], SUPERVISOR supervisors[]);
 };
@@ -207,9 +228,19 @@ void SUPERVISOR::setMaskForm(string mask_form)
     this->mask_form = mask_form;
 }
 
+void SUPERVISOR::setFinalSum(double finalSum)
+{
+    this->finalSum = finalSum;
+}
+
 string SUPERVISOR::getMaskForm()
 {
     return this->mask_form;
+}
+
+int SUPERVISOR::getFinalSum()
+{
+    return this->finalSum;
 }
 
 void SUPERVISOR::displaySupervisor()
@@ -221,7 +252,7 @@ void SUPERVISOR::displaySupervisor()
 
 void displayInFile(fstream &file, int i, int nr, PERSON persons[], SUPERVISOR supervisors[])
 {
-    file << i << ". First name: " << persons[nr].getLastName() << endl;
+    file << "First name: " << persons[nr].getLastName() << endl;
     file << "Last name: " << persons[nr].getFirstName() << endl;
     file << "City: " << persons[nr].getCity() << endl;
     file << "Debt: " << persons[nr].getDebt() << endl;
@@ -324,19 +355,24 @@ string randomMaskForm(int nb2, int *nb_circles, int *nb_triangles, int *nb_squar
     return "nothing";
 }
 
-void makeGroups(SUPERVISOR supervisors[], PLAYER players[], fstream &file, string maskForm)
+void makeGroups(SUPERVISOR supervisors[], PLAYER players[], fstream &file, string maskForm, int teams[10][12], int *nbTeams, string supervisorsTeams[10][3])
 {
     for (int i = 1; i <= 9; i++)
     {
         if (supervisors[i].getMaskForm() == maskForm)
         {
             file << supervisors[i].getLastName() << " " << supervisors[i].getFirstName() << " " << supervisors[i].getCity() << " " << supervisors[i].getDebt() << " " << supervisors[i].getWeight() << " " << supervisors[i].getMaskForm() << endl;
+            ++(*nbTeams);
+            supervisorsTeams[(*nbTeams)][0] = supervisors[i].getLastName();
+            supervisorsTeams[(*nbTeams)][1] = supervisors[i].getFirstName();
+            supervisorsTeams[(*nbTeams)][2] = supervisors[i].getMaskForm();
             for (int j = 1; j <= 11; j++)
             {
                 int nr = 1 + rand() % 99;
                 if (players[nr].getHasTeam() == 0)
                 {
                     file << players[nr].getLastName() << " " << players[nr].getFirstName() << " " << players[nr].getCity() << " " << players[nr].getDebt() << " " << players[nr].getWeight() << " " << players[nr].getGameNumber() << endl;
+                    teams[(*nbTeams)][j] = players[nr].getGameNumber();
                     players[nr].setHasTeam(1);
                 }
                 else
@@ -595,7 +631,6 @@ void GENKEN(PLAYER players[], fstream &file, int finalPlayers[], int *nbFinalPla
         {
             (*nbFinalPlayers)++;
         }
-
 }
 
 int main()
@@ -633,6 +668,7 @@ int main()
             int weight = 50 + rand() % 51;
 
             persons[i].setPerson(firstNamesArray[nr], lastNamesArray[nr2], citiesArray[nr3], debt, weight);
+            persons[i].setIsTaken(0);
             displayInFile(personsFile, i, nr, nr2, nr3, debt, weight, firstNamesArray, lastNamesArray, citiesArray);
         }
     }
@@ -646,12 +682,20 @@ int main()
         for (int i = 1; i <= 99; i++)
         {
             int nr = 1 + rand() % 99;
-            players[i].setPerson(persons[nr].getLastName(), persons[nr].getFirstName(), persons[nr].getCity(), persons[nr].getDebt(), persons[nr].getWeight());
-            players[i].setHasTeam(0);
-            players[i].setEliminated(0);
+            if (persons[nr].getIsTaken() == 0)
+            {
+                players[i].setPerson(persons[nr].getLastName(), persons[nr].getFirstName(), persons[nr].getCity(), persons[nr].getDebt(), persons[nr].getWeight());
+                players[i].setHasTeam(0);
+                players[i].setEliminated(0);
 
-            players[i].setGameNumber(i);
-            displayInFile(playersFile, i, nr, persons, players);
+                players[i].setGameNumber(i);
+                displayInFile(playersFile, i, nr, persons, players);
+                persons[nr].setIsTaken(1);
+            }
+            else
+            {
+                i--;
+            }
         }
     }
     playersFile.close();
@@ -665,19 +709,27 @@ int main()
     supervisorsFile.open("SUPERVISORS.txt", ios::out);
     if (verifyFileExists("SUPERVISORS.txt") == 1)
     {
-        for (int i = 1; i <= 9; i++)
+        int j = 0;
+        for (int i = 1; i <= 108; i++)
         {
-            int nr = 1 + rand() % 9;
-            int nb2 = 1 + rand() % 3;
-            string form = randomMaskForm(nb2, &nb_circles, &nb_triangles, &nb_squares);
-            supervisors[i].setMaskForm(form);
-            supervisors[i].setPerson(persons[nr].getLastName(), persons[nr].getFirstName(), persons[nr].getCity(), persons[nr].getDebt(), persons[nr].getWeight());
+            if (persons[i].getIsTaken() == 0)
+            {
+                int nb2 = 1 + rand() % 3;
+                string form = randomMaskForm(nb2, &nb_circles, &nb_triangles, &nb_squares);
+                ++j;
+                supervisors[j].setMaskForm(form);
+                supervisors[j].setPerson(persons[i].getLastName(), persons[i].getFirstName(), persons[i].getCity(), persons[i].getDebt(), persons[i].getWeight());
 
-            displayInFile(supervisorsFile, i, nr, persons, supervisors);
+                displayInFile(supervisorsFile, j, i, persons, supervisors);
+                persons[i].setIsTaken(1);
+            }
         }
     }
     supervisorsFile.close();
 
+    int teams[10][12] = {0};
+    int nbTeams = 0;
+    string supervisorsTeams[10][3];
     fstream teamsFile;
     teamsFile.open("TEAMS.txt", ios::out);
     if (verifyFileExists("TEAMS.txt") == 1)
@@ -685,11 +737,22 @@ int main()
         supervisorsFile.open("SUPERVISORS.txt", ios::in);
         if (verifyFileExists("SUPERVISORS.txt") == 1)
         {
-            makeGroups(supervisors, players, teamsFile, "circle");
-            makeGroups(supervisors, players, teamsFile, "triangle");
-            makeGroups(supervisors, players, teamsFile, "square");
+            makeGroups(supervisors, players, teamsFile, "circle", teams, &nbTeams, supervisorsTeams);
+            makeGroups(supervisors, players, teamsFile, "triangle", teams, &nbTeams, supervisorsTeams);
+            makeGroups(supervisors, players, teamsFile, "square", teams, &nbTeams, supervisorsTeams);
         }
     }
+    cout << nbTeams << endl;
+    for (int i = 1; i <= nbTeams; i++)
+    {
+        cout << supervisorsTeams[i][0] << " " << supervisorsTeams[i][1] << " " << supervisorsTeams[i][2] << " ";
+        for (int j = 1; j <= 11; j++)
+        {
+            cout << teams[i][j] << " ";
+        }
+        cout << endl;
+    }
+    cout << " ----------------------------- " << endl;
 
     // -------------------------------- RED LIGHT GREEN LIGHT---------------------------------
 
@@ -707,6 +770,7 @@ int main()
     {
         makeGroupsForSecondGame(players, groupsForSecongGame, m);
     }
+    afterFirstGameFile.close();
 
     // for (int i = 1; i <= 4; i++)
     // {
@@ -725,6 +789,7 @@ int main()
     {
         TUG_OF_WAR(players, afterSecondGameFile, m);
     }
+    afterSecondGameFile.close();
 
     // -------------------------------- MARBLES ---------------------------------
 
@@ -751,6 +816,8 @@ int main()
     {
         MARBLES(players, afterThirdGameFile, m2);
     }
+    groupsForSecongGame.close();
+    afterThirdGameFile.close();
 
     // -------------------------------- GENKEN ---------------------------------
 
@@ -779,8 +846,143 @@ int main()
         if (players[i].getEliminated() == 0)
             cout << players[i].getLastName() << " " << players[i].getFirstName() << " " << players[i].getGameNumber() << endl;
     }
-
+    FourthGameFile.close();
 
     // -------------------------------- FINAL PART ---------------------------------
-    return 0;
+
+    // afisam suma castigata de invingator
+    int sumWinner = 0;
+    int indexWinner;
+    fstream final;
+    final.open("FINAL.txt", ios::out);
+
+    if (verifyFileExists("FINAL.txt") == 1)
+    {
+
+        for (int i = 1; i <= 99; i++)
+        {
+            if (players[i].getEliminated() == 1)
+                sumWinner = sumWinner + players[i].getDebt();
+            else
+                indexWinner = i;
+        }
+        final << players[indexWinner].getLastName() << " " << players[indexWinner].getFirstName() << " a castigat jocul. Acesta a primit un premiu in valoare de " << sumWinner << endl;
+    }
+
+    // afisam suma castigata de fiecare supraveghetor
+    double arrayOfSums[10];
+    int nbOfSums = 0;
+
+    for (int i = 1; i <= 9; i++)
+    {
+        double sum = 0;
+        int n = 0;
+        double finalSum;
+        for (int j = 1; j <= 11; j++)
+        {
+            if (players[teams[i][j]].getEliminated() == 1)
+            {
+                sum += players[teams[i][j]].getDebt();
+                n++;
+            }
+        }
+        if (n != 11)
+        {
+            //final << supervisorsTeams[i][0] << " " << supervisorsTeams[i][1] << " il are pe castigator, deci ";
+            for (int k = 1; k <= 9; k++)
+            {
+                if (supervisorsTeams[i][0] == supervisors[k].getLastName() && supervisorsTeams[i][1] == supervisors[k].getFirstName() && supervisorsTeams[i][2] == supervisors[k].getMaskForm())
+                {
+                    //final << " primeste " << supervisors[k].getDebt() * 10 << endl;
+                    finalSum = supervisors[k].getDebt() * 10;
+                    arrayOfSums[++nbOfSums] = finalSum;
+                    supervisors[k].setFinalSum(finalSum);
+                }
+            }
+        }
+        else
+        {
+            for (int k = 1; k <= 9; k++)
+            {
+                if (supervisorsTeams[i][0] == supervisors[k].getLastName() && supervisorsTeams[i][1] == supervisors[k].getFirstName() && supervisorsTeams[i][2] == supervisors[k].getMaskForm())
+                {
+                    //final << supervisorsTeams[i][0] << " " << supervisorsTeams[i][1] << " a castigat suma: " << (sum - supervisors[k].getDebt()) << endl;
+                    finalSum = sum - supervisors[k].getDebt();
+                    arrayOfSums[++nbOfSums] = finalSum;
+                    supervisors[k].setFinalSum(finalSum);
+                }
+            }
+        }
+    }
+
+    for (int i = 1; i <= 9; i++)
+        cout << arrayOfSums[i] << " ";
+    cout << endl;
+
+    for (int i = 1; i < 9; i++)
+    {
+        for (int j = i; j <= 9; j++)
+        {
+            if (arrayOfSums[i] < arrayOfSums[j])
+            {
+                swap(arrayOfSums[i], arrayOfSums[j]);
+            }
+        }
+    }
+
+    for (int i = 1; i <= 9; i++)
+        cout << arrayOfSums[i] << " ";
+    cout << endl;
+
+    for (int i = 1; i <= 9; i++)
+    {
+        for (int k = 1; k <= 9; k++)
+        {
+            if ( arrayOfSums[i] == supervisors[k].getFinalSum())
+            {
+                final << supervisors[k].getLastName() << " " << supervisors[k].getFirstName() << " a castigat suma: " << supervisors[k].getFinalSum() << endl;
+            }
+        }
+    }
+    final << endl;
+
+    long long int sumCircle, sumTriangle, sumSquare;
+    for (int i = 1; i <= 9; i++)
+    {
+        if (supervisors[i].getMaskForm() == "circle")
+        {
+            sumCircle += supervisors[i].getFinalSum();
+        }
+
+        if (supervisors[i].getMaskForm() == "triangle")
+        {
+            sumCircle += supervisors[i].getFinalSum();
+        }
+
+        if (supervisors[i].getMaskForm() == "square")
+        {
+            sumCircle += supervisors[i].getFinalSum();
+        }
+    }
+
+    if (sumCircle >= sumTriangle && sumCircle >= sumSquare)
+    {
+        final << "Echipa 'cerc' a castigat cei mai multi bani: " << sumCircle << endl;
+    }
+
+    if (sumTriangle>= sumCircle && sumTriangle >= sumSquare)
+    {
+        final << "Echipa 'triunghi' a castigat cei mai multi bani: " << sumTriangle << endl;
+    }
+
+    if (sumSquare >= sumTriangle && sumSquare >= sumCircle)
+    {
+        final << "Echipa 'patrat' a castigat cei mai multi bani: " << sumSquare << endl;
+    }
+
+
+
+    final.close();
+
+return 0;
 }

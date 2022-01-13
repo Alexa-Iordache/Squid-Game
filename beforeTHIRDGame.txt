@@ -1,30 +1,30 @@
 Last name  First name  Game number  Random number
 
  Echipa 1
-Emma Bailey 65 67
-Patrick Mitchell 45 89
+Susan Hernandez 31 69
+Joseph Moore 17 85
 
  Echipa 2
-Adam Edwards 19 42
-Ruth Coleman 67 9
+Thomas Long 77 79
+Victoria Peterson 15 9
 
  Echipa 3
-Brandon Russell 43 9
-Brian Bennett 17 70
+Sarah Clark 63 68
+Ashley Hill 3 22
 
  Echipa 4
-Adam Edwards 47 3
-Sharon Watson 63 42
+James Hall 81 73
+Jose Rodriguez 27 99
 
  Echipa 5
-George Rodriguez 61 49
-Brian Bennett 27 91
+Brandon Henderson 7 71
+James Cook 33 47
 
  Echipa 6
-Carolyn Collins 75 4
-Frank Wright 57 42
+Jerry Young 51 13
+Julie Jones 79 23
 
  Echipa 7
-Victoria Perry 35 27
-Melissa Watson 11 21
+Rachel Evans 49 95
+Kathleen Price 43 43
 

@@ -1,63 +1,63 @@
-1. First name: Janet
-Last name: Hill
-City: Istanbul
-Debt: 97666
-Weight: 75
-Mask form: circle
-
-2. First name: Brian
-Last name: Bennett
-City: Pittsburgh
-Debt: 63060
-Weight: 98
-Mask form: triangle
-
-3. First name: Brian
-Last name: Bennett
-City: Pittsburgh
-Debt: 63060
-Weight: 98
-Mask form: circle
-
-4. First name: Janet
-Last name: Hill
-City: Istanbul
-Debt: 97666
-Weight: 75
-Mask form: square
-
-5. First name: Sharon
-Last name: Jackson
+First name: Alexander
+Last name: Hernandez
 City: Seattle
-Debt: 71166
-Weight: 83
-Mask form: square
-
-6. First name: Brian
-Last name: Bennett
-City: Pittsburgh
-Debt: 63060
-Weight: 98
-Mask form: triangle
-
-7. First name: Janet
-Last name: Hill
-City: Istanbul
-Debt: 97666
-Weight: 75
-Mask form: square
-
-8. First name: Melissa
-Last name: Molina
-City: Boston
-Debt: 66614
-Weight: 67
+Debt: 87964
+Weight: 84
 Mask form: circle
 
-9. First name: Jeffrey
-Last name: Griffin
-City: Houston
-Debt: 45640
-Weight: 83
+First name: James
+Last name: Reed
+City: Hamburg
+Debt: 47872
+Weight: 68
+Mask form: square
+
+First name: Jerry
+Last name: Patterson
+City: Newark
+Debt: 55845
+Weight: 55
+Mask form: square
+
+First name: Linda
+Last name: Peterson
+City: Düsseldorf
+Debt: 89904
+Weight: 66
+Mask form: triangle
+
+First name: Heather
+Last name: Bell
+City: Vienna
+Debt: 34218
+Weight: 93
+Mask form: circle
+
+First name: Charles
+Last name: Flores
+City: Dallas-Fort Worth
+Debt: 40053
+Weight: 55
+Mask form: circle
+
+First name: Daniel
+Last name: Nguyen
+City: Mexico City
+Debt: 70406
+Weight: 55
+Mask form: triangle
+
+First name: Linda
+Last name: Hill
+City: Brisbane
+Debt: 15542
+Weight: 65
+Mask form: square
+
+First name: Karen
+Last name: Lopez
+City: Guangzhou
+Debt: 64007
+Weight: 59
 Mask form: triangle
 
