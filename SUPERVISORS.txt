@@ -1,63 +1,63 @@
-First name: Christopher
-Last name: Howard
-City: Melbourne
-Debt: 64774
-Weight: 88
+First name: Thomas
+Last name: James
+City: Toronto
+Debt: 70318
+Weight: 98
 Mask form: square
 
-First name: Paul
-Last name: Collins
-City: Amsterdam
-Debt: 93057
-Weight: 67
-Mask form: square
-
-First name: Edward
-Last name: Powell
-City: Moscow
-Debt: 75161
-Weight: 73
-Mask form: circle
-
-First name: Susan
-Last name: Mitchell
-City: Munich
-Debt: 25511
-Weight: 60
-Mask form: square
-
-First name: Carol
-Last name: Cox
-City: Philadelphia
-Debt: 19185
-Weight: 52
-Mask form: triangle
-
-First name: Helen
-Last name: Johnson
-City: Milan
-Debt: 84278
-Weight: 52
-Mask form: triangle
-
-First name: Linda
-Last name: Diaz
-City: Istanbul
-Debt: 77543
+First name: Rachel
+Last name: Parker
+City: Dublin
+Debt: 24273
 Weight: 66
 Mask form: circle
 
-First name: Helen
-Last name: Foster
-City: Tampa
-Debt: 47426
+First name: Rebecca
+Last name: Jones
+City: Busan
+Debt: 53106
 Weight: 76
+Mask form: triangle
+
+First name: Amanda
+Last name: Jenkins
+City: Barcelona
+Debt: 43949
+Weight: 67
 Mask form: circle
 
-First name: Christopher
-Last name: Williams
-City: Mexico City
-Debt: 73219
-Weight: 61
+First name: Mary
+Last name: Ross
+City: Montréal
+Debt: 60570
+Weight: 65
 Mask form: triangle
+
+First name: Ronald
+Last name: Edwards
+City: Montréal
+Debt: 83406
+Weight: 65
+Mask form: square
+
+First name: Brandon
+Last name: Bell
+City: Québec
+Debt: 13349
+Weight: 97
+Mask form: triangle
+
+First name: James
+Last name: Rubio
+City: Rome
+Debt: 61272
+Weight: 96
+Mask form: circle
+
+First name: Jacob
+Last name: Adams
+City: Singapore
+Debt: 60611
+Weight: 53
+Mask form: square
 
