@@ -28,8 +28,6 @@ private:
     int isTaken; // attribute that will help us check if the person is already an existing player/ supervisor
 
 public:
-    //virtual void hello() = 0;
-
     //setters
     void setPerson(string last_name, string first_name, string city, double debt, int weight);
     void setIsTaken(int isTaken);
@@ -124,9 +122,6 @@ private:
     int genken_number; // attribute for a random number used in the last game
 
 public:
-    // void hello(){
-    //     cout << "Not abstract anymore" << endl;
-    // }
     // setters
     void setGameNumber(int game_number);
     void setHasTeam(int hasTeam);
@@ -481,7 +476,7 @@ void makeGroupsForSecondGame(Player players[], fstream &file, int m[5][13])
 
         for (int j = 1; j <= 12; j++)
         {
-            int nr = 1 + rand() % 99;                                                  // we select randomly the player
+            int nr = 1 + rand() % 99;   // we select randomly the player
             if (players[nr].getHasTeam() == 0 && players[nr].getGameNumber() % 2 != 0) // if he doesn't already have a team and he is not eliminated
             {
                 file << players[nr].getLastName() << " " << players[nr].getFirstName() << " " << players[nr].getGameNumber() << endl; // we display him in the file
@@ -746,7 +741,7 @@ void calculateSupervisorsSum(Player players[], Supervisor supervisors[], int tea
             {
                 if (supervisorsTeams[i][0] == supervisors[k].getLastName() && supervisorsTeams[i][1] == supervisors[k].getFirstName() && supervisorsTeams[i][2] == supervisors[k].getMaskForm())
                 {
-                    finalSum = supervisors[k].getDebt() * 10;
+                    finalSum = supervisors[k].getDebt() * 10 - supervisors[k].getDebt();
 
                     // we add in the 'arrayOfSums' array the final amount of money
                     arrayOfSums[++(*nbOfSums)] = finalSum;

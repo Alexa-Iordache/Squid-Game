@@ -1,30 +1,30 @@
 Last name  First name  Game number  Random number
 
  Echipa 1
-Joshua Walker 71 48
-Michelle Lopez 19 35
+Catherine Howard 19 59
+Raymond Nelson 85 38
 
  Echipa 2
-Richard Morris 69 36
-Donald Johnson 29 13
+Samantha Cook 95 83
+Amanda Moreno 91 24
 
  Echipa 3
-Jack Martin 49 98
-Melissa Kelly 79 73
+Rebecca Rodriguez 81 4
+Laura Kelly 37 53
 
  Echipa 4
-Patricia Young 93 52
-Amy Phillips 9 54
+Diane Brooks 35 55
+Pamela Mitchell 1 46
 
  Echipa 5
-Jose Thomas 39 74
-Michelle Wood 17 86
+Gary Evans 87 39
+Victoria Scott 5 53
 
  Echipa 6
-Alexander Stewart 1 44
-Timothy Gray 23 3
+Laura Campbell 75 46
+Robert Hayes 49 43
 
  Echipa 7
-Nancy Coleman 11 85
-Ashley Hernandez 97 6
+Dennis Bryant 53 92
+Sharon Reed 79 69
 
